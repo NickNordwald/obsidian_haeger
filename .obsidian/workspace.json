@@ -281,7 +281,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.942138671875
+    "width": 617.7135009765625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -303,8 +303,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d33f9bc9310413a4",
+  "active": "17a55c6437e901a7",
   "lastOpenFiles": [
+    "Thema lernen.md",
+    "How to write AGENT files.md",
+    "Code dokumentieren.md",
+    "Codebase verstehen.md",
+    "AGENTS.md",
     "CLAUDE.md",
     "Projects/Deutz/Kubernetes/Notizen und Fragen.md",
     "copilot/skills/obsidian-cli/SKILL.md",
@@ -339,11 +344,6 @@
     "Documentation/Onboarding.md",
     "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Leseliste.md",
     "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Vertiefung.md",
-    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Leitfaden.md",
-    "Calendar/Daily/2026-10-28.md",
-    "Projects/Deutz/Kubernetes/1. Kubernetes-Grundlagen.md",
-    "Projects/Deutz/Kubernetes/Kubernetes.md",
-    "Calendar/Daily/2026-09-28.md",
     "Resources/Images/Pricing-Dashboard Design.png",
     "Resources/Images/Pricing-Dashboard Phase 8.png",
     "Resources/Images/Pasted image 20261020161627.png",
