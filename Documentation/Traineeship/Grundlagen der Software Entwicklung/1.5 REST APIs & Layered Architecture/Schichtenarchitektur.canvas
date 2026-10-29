@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"a3b4c5d6e7f8091a","type":"group","x":0,"y":1080,"width":720,"height":680,"color":"2","label":"Schicht 4 · Persistence"},
+		{"id":"6f708192a3b4c5d6","type":"group","x":-160,"y":520,"width":720,"height":310,"color":"4","label":"Schicht 3 · Domain"},
+		{"id":"2b3c4d5e6f708192","type":"group","x":-160,"y":-320,"width":720,"height":220,"color":"6","label":"Schicht 1 · Presentation"},
+		{"id":"4d5e6f708192a3b4","type":"group","x":0,"y":140,"width":720,"height":180,"color":"5","label":"Schicht 2 · Application"},
+		{"id":"5e6f708192a3b4c5","type":"text","text":"### `application/pricing_app.py`\n\n**`PricingApp`** — orchestriert: laden → bauen → rechnen → schreiben.\nWeiß *was* passieren soll, enthält aber **keine einzige Fachformel**.","x":30,"y":160,"width":660,"height":145},
+		{"id":"b4c5d6e7f8091a2b","type":"text","text":"**`interfaces.py`** — die Verträge dieser Schicht\n\n`DataSource` · `RecommendationWriter` (als `Protocol`)\nDie Persistenz **besitzt** sie.","x":30,"y":1135,"width":660,"height":105},
+		{"id":"f9b4cfb47942d193","x":178,"y":1570,"width":250,"height":60,"type":"text","text":""},
+		{"id":"c5d6e7f8091a2b3c","type":"text","text":"**`sources.py`**\n**`writers.py`**\n\nje 3 Varianten:\nCSV · psycopg\nSQLAlchemy","x":30,"y":1520,"width":210,"height":220},
+		{"id":"d6e7f8091a2b3c4d","type":"text","text":"**`orm.py`**\n**`db.py`**\n\nSQLAlchemy-Modelle,\nEngine & Verbindung","x":255,"y":1520,"width":210,"height":220},
+		{"id":"e7f8091a2b3c4d5e","type":"text","text":"**`ingest.py`**\n\nCSV → Postgres\n(`COPY`)\n\n*293 Zeilen*","x":480,"y":1520,"width":210,"height":220},
+		{"id":"708192a3b4c5d6e7","type":"text","text":"**`entities.py`**\n\n`PriceableUnit`\n`Booking`\n`CapacityRow`\n`Price`\n`PriceRecommendation`","x":-130,"y":580,"width":210,"height":225},
+		{"id":"8192a3b4c5d6e7f8","type":"text","text":"**`builder.py`**\n\n`PriceableUnitBuilder`\n\nCapacity + Bookings\n→ `PriceableUnit`","x":95,"y":580,"width":210,"height":225},
+		{"id":"92a3b4c5d6e7f809","type":"text","text":"**`recommendations.py`**\n\n`RecommendationEngine`\n\n`HeuristicRecommendation-Strategy`","x":320,"y":580,"width":210,"height":225},
+		{"id":"3d4e5f6071829304","type":"text","text":"### Was mit der REST API dazukommt\n\n**`presentation/api/`**\n`app.py`, `deps.py`, `routers/`, `schemas/`\n\n**`application/`** — Use-Case-Services für CRUD\n**`persistence/`** — Repository-Verträge (getrennt von `DataSource`!)\n**`bootstrap.py`** — gemeinsame Factory für CLI *und* API\n\n**`domain/` bleibt unberührt** — dort ändert sich kein einziger Import. Genau dafür macht man Schichten.","x":-910,"y":858,"width":460,"height":330},
+		{"id":"091a2b3c4d5e6f70","type":"text","text":"### `shared/` — Querschnitt\n\n**Keine Schicht.** Wird von **allen vier** Schichten importiert — deshalb hier bewusst ohne Pfeile.\n\n**`exceptions.py`**\n`PricingError`, `ConfigError`, `DataSourceError`, `DomainError`\n\n**`logging_setup.py`** — `setup_logging()`","x":980,"y":-35,"width":360,"height":555,"color":"3"},
+		{"id":"2c3d4e5f60718293","type":"text","text":"> [!warning] Die eine Abhängigkeit nach oben\n> `persistence/` importiert `domain.entities` — `load_capacity()` gibt schließlich eine `list[CapacityRow]` zurück. Das ist die **rote Kante links**.\n>\n> Streng genommen zeigt dieser Pfeil **nach oben**. Bewusst akzeptiert: Die Entitäten sind das **gemeinsame Vokabular** der ganzen Anwendung.\n>\n> Die Alternative wäre, dass die Persistenz eigene Zeilen-Objekte liefert und die Schicht darüber mappt — mehr Code bei gleichem Nutzen.","x":1160,"y":733,"width":360,"height":630,"color":"1"},
+		{"id":"3c4d5e6f708192a3","type":"text","text":"### `presentation/` — *noch leer*\n\nHier kommt die **REST API** hin (`api/app.py`, `routers/`, `schemas/`, `deps.py`).\nHeute nimmt die CLI in `main.py` diese Rolle wahr.","x":-130,"y":-280,"width":660,"height":165},
+		{"id":"1a2b3c4d5e6f7081","type":"text","text":"# Schichtenarchitektur — Pricing-Anwendung\n\nStand nach dem Umbau (Commit `d488663`, 2026-08-04).\n**Abhängigkeiten zeigen nach unten.**\n\n[[1.5 REST APIs & Layered Architecture - Vertiefung|Theorie]] · [[Umsetzungsstand (REST APIs & Layered Architecture)|Entscheidung & Begründung]]","x":65,"y":-680,"width":720,"height":180},
+		{"id":"1b2c3d4e5f607182","type":"text","text":"### `main.py` — Composition Root\n\nDer **eine** Ort, an dem entschieden wird, *welche* konkreten Implementierungen benutzt werden:\n\n```python\nPricingApp(\n    source=CsvDataSource(...),\n    writer=CsvRecommendationWriter(...),\n)\n```\n\n**Von der Schichtregel ausgenommen:** Sie *ruft* keine Fachlogik auf, sie *erzeugt* den Objektgraphen — und muss dafür alle Schichten kennen.","x":-1060,"y":120,"width":460,"height":400,"color":"2"}
+	],
+	"edges":[
+		{"id":"4e5f607182930415","fromNode":"3c4d5e6f708192a3","fromSide":"bottom","toNode":"5e6f708192a3b4c5","toSide":"top","color":"6","label":"ruft auf"},
+		{"id":"5f60718293041526","fromNode":"5e6f708192a3b4c5","fromSide":"bottom","toNode":"8192a3b4c5d6e7f8","toSide":"top","color":"6","label":"orchestriert die Domäne"},
+		{"id":"6071829304152637","fromNode":"5e6f708192a3b4c5","fromSide":"right","toNode":"b4c5d6e7f8091a2b","toSide":"right","color":"5","label":"kennt nur den Vertrag"},
+		{"id":"7182930415263748","fromNode":"c5d6e7f8091a2b3c","fromSide":"top","toNode":"b4c5d6e7f8091a2b","toSide":"bottom","color":"5","label":"implementiert"},
+		{"id":"8293041526374859","fromNode":"a3b4c5d6e7f8091a","fromSide":"left","toNode":"708192a3b4c5d6e7","toSide":"left","color":"1","label":"nutzt die Entitäten ↑"},
+		{"id":"a415052637485960","fromNode":"1b2c3d4e5f607182","fromSide":"right","toNode":"5e6f708192a3b4c5","toSide":"left","color":"2","label":"erzeugt & verdrahtet"}
+	]
+}

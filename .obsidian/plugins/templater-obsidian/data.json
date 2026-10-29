@@ -1,0 +1,28 @@
+{
+  "data_version": 2,
+  "command_timeout": 5,
+  "templates_folder": "Resources/Templater",
+  "templates_pairs": [],
+  "trigger_on_file_creation_mode": "folder",
+  "auto_jump_to_cursor": false,
+  "jump_to_cursor_after_file_name": false,
+  "shell_path": "",
+  "user_scripts_folder": "Resources/Templater",
+  "folder_templates": [
+    {
+      "folder": "ToDo",
+      "template": "Resources/Templater/Task.md"
+    },
+    {
+      "folder": "Documentation/People",
+      "template": "Resources/Templater/People.md"
+    }
+  ],
+  "file_templates": [],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "intellisense_render": "1",
+  "ignore_folders_on_creation": []
+}

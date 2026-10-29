@@ -1,0 +1,4 @@
+- Conventional Commits
+- **Tip**: your local master branch evolves independently of the remote master branch, and git stores the remote branch as `origin/master`. Combined with this trick, `git rebase -i origin/master` is often a very convenient way to rebase all of the commits which haven't been merged upstream yet!
+- Liste von den wichtigen Commands mit kurz Beschreibungen
+- Mehr Inner Workings i.e. wirklich verinnerlichen, was intern passiert

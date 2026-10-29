@@ -1,0 +1,265 @@
+\ProvidesPackage{Preamble}
+
+%%%%%%%%%%%%%%%%%%%%%% usefull packages %%%%%%%%%%%%%%%%
+
+\usepackage{amsmath, amssymb, amscd, amsthm, amsfonts}
+\usepackage{csquotes}  
+\usepackage{mathtools}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={150mm,250mm},
+ left=30mm, %20mm
+ top=20mm,  %20mm
+ }
+\usepackage{todonotes}
+\usepackage{graphicx}
+\usepackage{relsize}
+\usepackage{array}
+\usepackage{calligra}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{parskip}
+%\linespread{1} %Space between lines
+%\setlength{\headheight}{14pt} %14pt
+%\setlength{\textwidth}{424pt} %450pt
+\usepackage[Rejne]{fncychap}
+\usepackage[mathscr]{euscript}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% new environments %%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{exercise}{Exercise}
+\newtheorem*{notation}{Notation}
+\newtheorem*{warning}{Warning}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{recall}{Recall}
+
+\theoremstyle{plain}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{theorem}[definition]{Theorem}
+\newtheorem{corollary}[definition]{Corrollary}
+\newtheorem{proposition}[definition]{Proposition}
+\newtheorem*{funfact}{Funfact}
+
+\setlength{\topsep}{10pt}   % Space above the theorem
+\setlength{\partopsep}{10pt}
+
+%Mathematical bold
+\newcommand{\bA}{\mathbb{A}}
+\newcommand{\bB}{\mathbb{B}}
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bD}{\mathbb{D}}
+\newcommand{\bE}{\mathbb{E}}
+\newcommand{\bF}{\mathbb{F}}
+\newcommand{\bG}{\mathbb{G}}
+\newcommand{\bH}{\mathbb{H}}
+\newcommand{\bI}{\mathbb{I}}
+\newcommand{\bJ}{\mathbb{J}}
+\newcommand{\bK}{\mathbb{K}}
+\newcommand{\bL}{\mathbb{L}}
+\newcommand{\bM}{\mathbb{M}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bO}{\mathbb{O}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bS}{\mathbb{S}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bU}{\mathbb{U}}
+\newcommand{\bV}{\mathbb{V}}
+\newcommand{\bW}{\mathbb{W}}
+\newcommand{\bX}{\mathbb{X}}
+\newcommand{\bY}{\mathbb{Y}}
+\newcommand{\bZ}{\mathbb{Z}}
+
+%Mathematical calligraphic (euler style)
+
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+
+
+%%%%%%%%%%%%% mathematical fraktur  %%%%%%%%%%%%%%%%%%%%%
+\newcommand{\mf}[1]{\mathfrak{#1}}
+
+\newcommand{\fA}{\mathfrak{A}}
+\newcommand{\fB}{\mathfrak{B}}
+\newcommand{\fC}{\mathfrak{C}}
+\newcommand{\fD}{\mathfrak{D}}
+\newcommand{\fE}{\mathfrak{E}}
+\newcommand{\fF}{\mathfrak{F}}
+\newcommand{\fG}{\mathfrak{G}}
+\newcommand{\fH}{\mathfrak{H}}
+\newcommand{\fI}{\mathfrak{I}}
+\newcommand{\fJ}{\mathfrak{J}}
+\newcommand{\fK}{\mathfrak{K}}
+\newcommand{\fL}{\mathfrak{L}}
+\newcommand{\fM}{\mathfrak{M}}
+\newcommand{\fN}{\mathfrak{N}}
+\newcommand{\fO}{\mathfrak{O}}
+\newcommand{\fP}{\mathfrak{P}}
+\newcommand{\fQ}{\mathfrak{Q}}
+\newcommand{\fR}{\mathfrak{R}}
+\newcommand{\fS}{\mathfrak{S}}
+\newcommand{\fT}{\mathfrak{T}}
+\newcommand{\fU}{\mathfrak{U}}
+\newcommand{\fV}{\mathfrak{V}}
+\newcommand{\fW}{\mathfrak{W}}
+\newcommand{\fX}{\mathfrak{X}}
+\newcommand{\fY}{\mathfrak{Y}}
+\newcommand{\fZ}{\mathfrak{Z}}
+
+
+%Categories
+\newcommand{\Top}{\textnormal{\textbf{Top}}}
+\newcommand{\Set}{\textbf{Set}}
+\newcommand{\Grp}{\textbf{Grp}}
+\newcommand{\hTop}{\textbf{hTop}}
+\newcommand{\Ab}{\textbf{Ab}}
+\newcommand{\ab}{\operatorname{ab}}
+\newcommand{\Ch}{\textbf{Ch}}
+\newcommand{\Mod}{\textbf{Mod}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\gmod}{\textbf{G-Mod}}
+\newcommand{\rmod}{\textbf{R-Mod}}
+\newcommand{\smod}{\textbf{S-Mod}}
+\newcommand{\hmod}{\textbf{H-Mod}}
+\newcommand{\grpmod}{\textbf{GrpMod}}
+\newcommand{\Cat}{\operatorname{Cat}}
+
+%Operators
+\newcommand{\End}{\operatorname{End}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\id}{\operatorname{id}}
+\newcommand{\rd}{\operatorname{rd}}
+\newcommand{\rg}{\operatorname{rg}}
+\newcommand{\defekt}{\operatorname{def}}
+\newcommand{\dist}{\operatorname{dist}}
+\newcommand{\del}{\partial}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\rk}{\operatorname{rk}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\Lin}{\operatorname{Lin}}
+\newcommand{\grad}{\operatorname{grad}}
+\newcommand{\ggT}{\operatorname{ggT}}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\Gal}{\operatorname{Gal}}
+\newcommand{\Min}{\operatorname{Min}}
+\newcommand{\diam}{\operatorname{diam}}
+\newcommand{\pr}{\operatorname{pr}}
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\SL}{\operatorname{SL}}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\Ext}{\operatorname{Ext}}
+\newcommand{\Tor}{\operatorname{Tor}}
+\newcommand{\RP}{\bR\!\operatorname{P}}
+\newcommand{\CP}{\bC\!\operatorname{P}}
+\newcommand{\coker}{\operatorname{coker}}
+\newcommand{\bu}{\bullet}
+\newcommand{\pt}{\operatorname{pt}}
+\newcommand{\Res}{\operatorname{Res}}
+\newcommand{\Tot}{\operatorname{Tot}}
+\newcommand{\Ind}{\operatorname{Ind}}
+\newcommand{\Coind}{\operatorname{Coind}}
+\newcommand{\cor}{\operatorname{cor}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\pathspace}{\operatorname{\text{\calligra{P}}}}
+\newcommand{\sq}{\operatorname{Sq}}
+\newcommand{\emb}{\operatorname{Emd}}
+\newcommand{\mor}{\operatorname{Mor}}
+\newcommand{\hofib}{\operatorname{hofib}}
+\newcommand{\Deck}{\operatorname{Deck}}
+\DeclareMathOperator*{\colim}{colim}
+\DeclareMathOperator{\proj}{proj}
+\DeclareMathOperator{\lcm}{lcm}
+\DeclareMathOperator{\Fun}{Fun}
+\DeclareMathOperator{\link}{link}
+\DeclareMathOperator{\curl}{curl}
+\DeclareMathOperator{\div}{div}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\sk}{sk}
+\newcommand{\sSet}{\text{sSet}}
+%\DeclareMathOperator{\del}{\partial\!}
+
+%%%%%%%%%%%%%%%%%%%%%%% new commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\jnote}[1]{\todo[color=blue!40,linecolor=blue!40!black,size=\tiny]{#1}}
+
+\newcommand\restr[2]{{% we make the whole thing an ordinary symbol
+  \left.\kern-\nulldelimiterspace % automatically resize the bar with \right
+  #1 % the function
+  \littletaller % pretend it's a little taller at normal size
+  \right|_{#2} % this is the delimiter
+  }}
+\newcommand{\littletaller}{\mathchoice{\vphantom{\big|}}{}{}{}}
+
+
+
+
+
+
+
+
+
+%%%%%  QUIVER  %%%%%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{quiver}[2021/01/11 quiver]
+
+% `tikz-cd` is necessary to draw commutative diagrams.
+\RequirePackage{tikz-cd}
+% `amssymb` is necessary for `\lrcorner` and `\ulcorner`.
+\RequirePackage{amssymb}
+% `calc` is necessary to draw curved arrows.
+\usetikzlibrary{calc}
+% `pathmorphing` is necessary to draw squiggly arrows.
+\usetikzlibrary{decorations.pathmorphing}
+
+% A TikZ style for curved arrows of a fixed height, due to AndréC.
+\tikzset{curve/.style={settings={#1},to path={(\tikztostart)
+    .. controls ($(\tikztostart)!\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+    and ($(\tikztostart)!1-\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+    .. (\tikztotarget)\tikztonodes}},
+    settings/.code={\tikzset{quiver/.cd,#1}
+        \def\pv##1{\pgfkeysvalueof{/tikz/quiver/##1}}},
+    quiver/.cd,pos/.initial=0.35,height/.initial=0}
+
+% TikZ arrowhead/tail styles.
+\tikzset{tail reversed/.code={\pgfsetarrowsstart{tikzcd to}}}
+\tikzset{2tail/.code={\pgfsetarrowsstart{Implies[reversed]}}}
+\tikzset{2tail reversed/.code={\pgfsetarrowsstart{Implies}}}
+% TikZ arrow styles.
+\tikzset{no body/.style={/tikz/dash pattern=on 0 off 1mm}}
+
+\endinput

@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"1a2b3c4d5e710ddf","type":"group","x":0,"y":780,"width":780,"height":320,"color":"5","label":"Online-Banking & Kontoservice"},
+		{"id":"1a2b3c4d5e707334","type":"group","x":0,"y":340,"width":780,"height":320,"color":"4","label":"Geldautomat"},
+		{"id":"1a2b3c4d5e6fd889","type":"group","x":0,"y":40,"width":780,"height":200,"color":"2","label":"Bankverwaltung"},
+		{"id":"1a2b3c4d5e70d001","type":"text","text":"### Kontostand abfragen","x":40,"y":970,"width":320,"height":90,"color":"5"},
+		{"id":"1a2b3c4d5e709223","type":"text","text":"### Im Online-Banking anmelden\n*Aufgabe VIII*","x":40,"y":850,"width":320,"height":90,"color":"5"},
+		{"id":"1a2b3c4d5e70b112","type":"text","text":"### Geld überweisen\n*Aufgabe IX*","x":420,"y":850,"width":320,"height":90,"color":"5"},
+		{"id":"1a2b3c4d5e70eef0","type":"text","text":"### Kontoauszug erstellen\n*Aufgabe VII*","x":420,"y":970,"width":320,"height":90,"color":"5"},
+		{"id":"1a2b3c4d5e6f5ccd","type":"text","text":"### Bankkunde","x":-500,"y":480,"width":280,"height":90,"color":"6"},
+		{"id":"1a2b3c4d5e6f9aab","type":"text","text":"### Geldautomat aufstellen\n*Aufgabe I*","x":40,"y":110,"width":320,"height":90,"color":"2"},
+		{"id":"1a2b3c4d5e6fb99a","type":"text","text":"### Konto eröffnen\n*Aufgabe II*","x":420,"y":110,"width":320,"height":90,"color":"2"},
+		{"id":"1a2b3c4d5e6f7bbc","type":"text","text":"### Empfänger","x":-500,"y":940,"width":280,"height":90,"color":"6"},
+		{"id":"1a2b3c4d5e6f3dde","type":"text","text":"### Bank / Betreiber","x":-500,"y":65,"width":280,"height":90,"color":"6"},
+		{"id":"1a2b3c4d5e6ff778","type":"text","text":"### Geldautomat finden\n*Aufgabe III*","x":40,"y":410,"width":320,"height":90,"color":"4"},
+		{"id":"1a2b3c4d5e703556","type":"text","text":"### Bargeld einzahlen\n*Aufgabe V*","x":40,"y":530,"width":320,"height":90,"color":"4"},
+		{"id":"1a2b3c4d5e701667","type":"text","text":"### Am Automaten anmelden\n*Aufgabe IV*","x":420,"y":410,"width":320,"height":90,"color":"4"},
+		{"id":"1a2b3c4d5e705445","type":"text","text":"### Bargeld abheben\n*Aufgabe VI*","x":420,"y":530,"width":320,"height":90,"color":"4"}
+	],
+	"edges":[
+		{"id":"1a2b3c4d5e714bbd","fromNode":"1a2b3c4d5e6f3dde","fromSide":"right","toNode":"1a2b3c4d5e6f9aab","toSide":"left","color":"2"},
+		{"id":"1a2b3c4d5e716aac","fromNode":"1a2b3c4d5e6f3dde","fromSide":"right","toNode":"1a2b3c4d5e6fb99a","toSide":"top","color":"2"},
+		{"id":"1a2b3c4d5e71899b","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"right","toNode":"1a2b3c4d5e6ff778","toSide":"left","color":"4"},
+		{"id":"1a2b3c4d5e71a88a","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"right","toNode":"1a2b3c4d5e701667","toSide":"left","color":"4"},
+		{"id":"1a2b3c4d5e71c779","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"right","toNode":"1a2b3c4d5e703556","toSide":"left","color":"4"},
+		{"id":"1a2b3c4d5e71e668","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"right","toNode":"1a2b3c4d5e705445","toSide":"left","color":"4"},
+		{"id":"1a2b3c4d5e720557","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"bottom","toNode":"1a2b3c4d5e709223","toSide":"left","color":"5"},
+		{"id":"1a2b3c4d5e722446","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"bottom","toNode":"1a2b3c4d5e70b112","toSide":"left","color":"5"},
+		{"id":"1a2b3c4d5e724335","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"bottom","toNode":"1a2b3c4d5e70eef0","toSide":"left","color":"5"},
+		{"id":"1a2b3c4d5e726224","fromNode":"1a2b3c4d5e6f7bbc","fromSide":"right","toNode":"1a2b3c4d5e709223","toSide":"left","color":"5"},
+		{"id":"1a2b3c4d5e728113","fromNode":"1a2b3c4d5e6f7bbc","fromSide":"right","toNode":"1a2b3c4d5e70d001","toSide":"left","color":"5"},
+		{"id":"1a2b3c4d5e72a002","fromNode":"1a2b3c4d5e70b112","fromSide":"bottom","toNode":"1a2b3c4d5e6f7bbc","toSide":"right","color":"1","label":"erhält Gutschrift"}
+	]
+}

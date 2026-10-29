@@ -1,0 +1,365 @@
+{
+  "main": {
+    "id": "2fb9257b581f6d1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "86dd5a07a12bad23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9e26443fabb418a",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1792670796534-n4c7qcw",
+                      "conversationId": "conv-1792670923956-0off565kh"
+                    },
+                    {
+                      "tabId": "tab-1793110711378-a2dghb2",
+                      "conversationId": "conv-1793110829627-8iib5nxym"
+                    },
+                    {
+                      "tabId": "tab-1793175352148-78ob4jp",
+                      "conversationId": null,
+                      "draftModel": "opus",
+                      "providerId": "claude"
+                    }
+                  ],
+                  "activeTabId": "tab-1793175352148-78ob4jp"
+                }
+              },
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "d33f9bc9310413a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Documentation/Lern-Workflows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lern-Workflows"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c0b7cea54c5d918",
+    "type": "split",
+    "children": [
+      {
+        "id": "64fcee8c97469f17",
+        "type": "tabs",
+        "dimension": 63.36779911373707,
+        "children": [
+          {
+            "id": "99b4ef70120da91b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c5aba4ea9b704095",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0ec3f14f5349840c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f4608f479df98e33",
+        "type": "tabs",
+        "dimension": 36.63220088626292,
+        "children": [
+          {
+            "id": "f25e71ab691d9dfc",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.8852729797363
+  },
+  "right": {
+    "id": "0e03d7fbce89a6a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "feaf800fa5c66afb",
+        "type": "tabs",
+        "dimension": 44.19831223628692,
+        "children": [
+          {
+            "id": "4bfb8667a765f46b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Calendar/Daily/2026-10-08.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "59fe63cfed248746",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
+          },
+          {
+            "id": "aff0a0d2f3a14e5d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "d0db1dda6e96b111",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/2.3 Advanced Python - Vertiefung.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7beeb2063d10fe87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Documentation/Lern-Workflows.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "517a569d1bdf6373",
+        "type": "tabs",
+        "dimension": 55.80168776371308,
+        "children": [
+          {
+            "id": "a66fba0b3a9ef794",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "326fe06cd7aced6a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "768da96eba1a05af",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "document",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "718998ac8d06a97d",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent Chat"
+            }
+          },
+          {
+            "id": "17a55c6437e901a7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 365.942138671875
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Agent Chat": false,
+      "realclaudian:Open Claudian": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "ObsidianAnkiSync:Start Obsidian Anki Sync": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "d33f9bc9310413a4",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "Projects/Deutz/Kubernetes/Notizen und Fragen.md",
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/json-canvas/references",
+    "copilot/skills/json-canvas",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/LICENSE",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-bases",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/LICENSE",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/obsidian-markdown/references",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
+    "Documentation/Untitled.md",
+    "Untitled.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Klassendiagramm (OOP-Loesung).canvas",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Datenmodell.canvas",
+    "test.canvas",
+    "ToDo/Current/Marten Obsidian zeigen.md",
+    "Documentation/git/Quiz 1 - Commits, Objekte & Rebase.md",
+    "Documentation/Onboarding.md",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Leseliste.md",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Vertiefung.md",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Leitfaden.md",
+    "Calendar/Daily/2026-10-28.md",
+    "Projects/Deutz/Kubernetes/1. Kubernetes-Grundlagen.md",
+    "Projects/Deutz/Kubernetes/Kubernetes.md",
+    "Calendar/Daily/2026-09-28.md",
+    "Resources/Images/Pricing-Dashboard Design.png",
+    "Resources/Images/Pricing-Dashboard Phase 8.png",
+    "Resources/Images/Pasted image 20261020161627.png",
+    "Resources/Images/Pasted image 20260923210757.png",
+    "Resources/Images/Pasted image 20260909142047.png",
+    "Resources/Images/Pasted image 20260909141301.png",
+    "Resources/Images/Pasted image 20260902120421.png",
+    "Resources/Images/Pasted image 20260827134638.png",
+    "Resources/Canvases/Challenge Geldautomaten - Use-Case-Diagramm (kompakt).canvas",
+    "Resources/Canvases/Challenge Geldautomaten - Use-Case-Diagramm.canvas",
+    "Resources/Canvases/Challenge Geldautomaten - Klassendiagramm.canvas",
+    "Resources/Canvases/Challenge Geldautomaten - Klassendiagramm (kompakt).canvas",
+    "Resources/Canvases/Challenge Geldautomaten - ER-Diagramm.canvas",
+    "Resources/Canvases/1.1 OOP.canvas",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/Challenge/Untitled.canvas",
+    "Resources/Images/Pasted image 20260707145709.png",
+    "Resources/Images/Pasted image 20260707145006.png"
+  ]
+}

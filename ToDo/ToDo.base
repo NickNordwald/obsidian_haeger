@@ -1,0 +1,90 @@
+views:
+  - type: table
+    name: Current
+    filters:
+      and:
+        - file.inFolder("ToDo/Current")
+    order:
+      - file.name
+      - importance
+      - type
+      - energy
+      - effort
+      - deadline
+      - scheduled
+      - completed
+    sort:
+      - property: importance
+        direction: DESC
+    imageAspectRatio: 2.5
+    columnSize:
+      note.importance: 108
+      note.deadline: 99
+  - type: table
+    name: Simmering
+    filters:
+      and:
+        - file.inFolder("ToDo/Simmering")
+    order:
+      - file.name
+      - importance
+      - type
+      - energy
+      - effort
+      - deadline
+      - scheduled
+      - completed
+    imageAspectRatio: 2.5
+  - type: table
+    name: Sleeping
+    filters:
+      and:
+        - file.inFolder("ToDo/Sleeping")
+    order:
+      - file.name
+      - importance
+      - type
+      - energy
+      - effort
+      - scheduled
+      - deadline
+      - completed
+    imageAspectRatio: 2.5
+    columnSize:
+      note.importance: 108
+      note.scheduled: 102
+      note.deadline: 99
+  - type: table
+    name: Today
+    filters:
+      and:
+        - file.inFolder("ToDo")
+        - scheduled == now().date().format("YYYY-MM-DD")
+    order:
+      - file.name
+      - importance
+      - type
+      - energy
+      - effort
+      - deadline
+      - scheduled
+      - completed
+    imageAspectRatio: 2.5
+  - type: table
+    name: Weekly
+    filters:
+      and:
+        - file.inFolder("ToDo/Weekly")
+    order:
+      - file.name
+      - importance
+      - type
+      - energy
+      - effort
+      - deadline
+      - scheduled
+      - completed
+    imageAspectRatio: 2.5
+    columnSize:
+      note.importance: 108
+      note.deadline: 99

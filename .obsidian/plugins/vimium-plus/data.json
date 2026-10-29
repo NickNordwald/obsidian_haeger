@@ -1,0 +1,53 @@
+{
+  "hintChars": "sadfjklewcmpgh",
+  "selectors": [
+    ".workspace-tab-header",
+    ".workspace-tab-header-inner",
+    ".side-dock-ribbon-action",
+    ".clickable-icon",
+    ".nav-file-title",
+    ".nav-folder-title",
+    ".tree-item-self",
+    ".menu-item",
+    ".markdown-preview-view a",
+    ".markdown-preview-view .internal-link",
+    ".markdown-preview-view .external-link",
+    ".markdown-preview-view .tag",
+    ".markdown-preview-view .task-list-item-checkbox",
+    ".markdown-preview-view button",
+    ".markdown-embed-link"
+  ],
+  "hintFontSize": 11,
+  "scrollStep": 70,
+  "forceReadingView": true,
+  "enableNativeVim": true,
+  "showModeIndicator": true,
+  "keyBindings": [
+    {
+      "key": "p",
+      "commandId": "command-palette:open",
+      "commandName": "Command palette: Open command palette"
+    },
+    {
+      "key": "o",
+      "commandId": "switcher:open",
+      "commandName": "Quick switcher: Open quick switcher"
+    },
+    {
+      "key": "q",
+      "commandId": "workspace:close",
+      "commandName": "Close current tab"
+    },
+    {
+      "key": "h",
+      "commandId": "workspace:goto-last-tab",
+      "commandName": "Go to last tab"
+    },
+    {
+      "key": "l",
+      "commandId": "workspace:next-tab",
+      "commandName": "Go to next tab"
+    }
+  ],
+  "terminalCommands": []
+}

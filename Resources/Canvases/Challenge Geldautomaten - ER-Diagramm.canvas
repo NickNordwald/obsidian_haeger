@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"1a2b3c4d5e6f5ccd","type":"text","text":"### `bankkonten`\n\n| Spalte          | Typ     | Constraint  |\n| --------------- | ------- | ----------- |\n| **kontonummer** | Integer | PK Identity |\n| online_pin      | Text    | NOT NULL    |\n","x":-28,"y":-800,"width":520,"height":240,"color":"5"},
+		{"id":"1a2b3c4d5e6fb99a","type":"text","text":"### `geldautomaten`\n\n| Spalte               | Typ           | Constraint  |\n| -------------------- | ------------- | ----------- |\n| **nummer**           | Integer       | PK Identity |\n| verfuegbares_bargeld | Numeric(12,2) | NOT NULL    |\n| latitude             | Float         | NOT NULL    |\n| longitude            | Float         | NOT NULL    |","x":560,"y":340,"width":520,"height":240,"color":"2"},
+		{"id":"1a2b3c4d5e6f7bbc","type":"text","text":"### `transaktionen`\n\n| Spalte      | Typ           | Constraint      |\n| ----------- | ------------- | --------------- |\n| **id**      | Integer       | PK Identity     |\n| zeitpunkt   | DateTime      | NOT NULL        |\n| betrag      | Numeric(12,2) | NOT NULL        |\n| kontonummer | Integer       | FK → bankkonten |","x":820,"y":-230,"width":520,"height":270,"color":"5"},
+		{"id":"1a2b3c4d5e6f3dde","type":"text","text":"### `kunden`\n\n| Spalte           | Typ     | Constraint      |\n| ---------------- | ------- | --------------- |\n| **kundennummer** | Integer | PK Identity     |\n| vorname          | Text    | NOT NULL        |\n| nachname         | Text    | NOT NULL        |\n| kontonummer      | Integer | FK → bankkonten |\n","x":-1080,"y":-400,"width":520,"height":255,"color":"5"},
+		{"id":"1a2b3c4d5e6f9aab","type":"text","text":"### `geldkarten`\n\n| Spalte           | Typ     | Constraint      |\n| ---------------- | ------- | --------------- |\n| **kartennummer** | Integer | PK Identity     |\n| pin              | Text    | NOT NULL        |\n| kontonummer      | Integer | FK → bankkonten |\n| kundennummer     | Integer | FK → kunden     |\n","x":-548,"y":295,"width":520,"height":265,"color":"5"}
+	],
+	"edges":[
+		{"id":"1a2b3c4d5e701667","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"left","toNode":"1a2b3c4d5e6f3dde","toSide":"right","color":"5","label":"1 : 1  (FK kunden.kontonummer)"},
+		{"id":"1a2b3c4d5e703556","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"right","toNode":"1a2b3c4d5e6f7bbc","toSide":"left","color":"5","label":"1 : n  (FK transaktionen.kontonummer)"},
+		{"id":"1a2b3c4d5e705445","fromNode":"1a2b3c4d5e6f5ccd","fromSide":"bottom","toNode":"1a2b3c4d5e6f9aab","toSide":"right","color":"5","label":"1 : n   (FK geldkarten.kontonummer)"},
+		{"id":"1a2b3c4d5e707334","fromNode":"1a2b3c4d5e6f3dde","fromSide":"bottom","toNode":"1a2b3c4d5e6f9aab","toSide":"top","color":"5","label":"1 : 1  (FK geldkarten.kundennummer)"}
+	]
+}

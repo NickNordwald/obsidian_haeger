@@ -1,0 +1,76 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Websites und Services",
+      "path": "Documentation/Websites und Services.md"
+    },
+    {
+      "basename": "Outlook",
+      "path": "Documentation/Services/Outlook.md"
+    },
+    {
+      "basename": "Confluence",
+      "path": "Documentation/Services/Confluence.md"
+    },
+    {
+      "basename": "OneDrive",
+      "path": "Documentation/Services/OneDrive.md"
+    },
+    {
+      "basename": "Teams",
+      "path": "Documentation/Services/Teams.md"
+    },
+    {
+      "basename": "Slack",
+      "path": "Documentation/Services/Slack.md"
+    },
+    {
+      "basename": "Personio",
+      "path": "Documentation/Services/Personio.md"
+    },
+    {
+      "basename": "ToDo",
+      "path": "ToDo/ToDo.base"
+    },
+    {
+      "basename": "Task",
+      "path": "Resources/Templater/Task.md"
+    },
+    {
+      "basename": "Sicherheitsbelehrung lesen",
+      "path": "ToDo/Current/Sicherheitsbelehrung lesen.md"
+    },
+    {
+      "basename": "Mails lesen & beantworten",
+      "path": "ToDo/Current/Mails lesen & beantworten.md"
+    },
+    {
+      "basename": "2026-07-02",
+      "path": "Calendar/Daily/2026-07-02.md"
+    },
+    {
+      "basename": "2026-07-01",
+      "path": "Calendar/Daily/2026-07-01.md"
+    },
+    {
+      "basename": "2026-W27",
+      "path": "Calendar/Weekly/2026-W27.md"
+    },
+    {
+      "basename": "2026-07-05",
+      "path": "Calendar/Daily/2026-07-05.md"
+    },
+    {
+      "basename": "2026-07-04",
+      "path": "Calendar/Daily/2026-07-04.md"
+    },
+    {
+      "basename": "2026-07-03",
+      "path": "Calendar/Daily/2026-07-03.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

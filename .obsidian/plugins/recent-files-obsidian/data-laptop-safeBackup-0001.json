@@ -1,0 +1,44 @@
+{
+  "recentFiles": [
+    {
+      "basename": "2026-07-05",
+      "path": "Calendar/Daily/2026-07-05.md"
+    },
+    {
+      "basename": "2026-07-04",
+      "path": "Calendar/Daily/2026-07-04.md"
+    },
+    {
+      "basename": "2026-07-03",
+      "path": "Calendar/Daily/2026-07-03.md"
+    },
+    {
+      "basename": "2026-07-02",
+      "path": "Calendar/Daily/2026-07-02.md"
+    },
+    {
+      "basename": "2026-07-01",
+      "path": "Calendar/Daily/2026-07-01.md"
+    },
+    {
+      "basename": "Mails lesen & beantworten",
+      "path": "ToDo/Current/Mails lesen & beantworten.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "Resources/Templater/Daily.md"
+    },
+    {
+      "basename": "Task",
+      "path": "Resources/Templater/Task.md"
+    },
+    {
+      "basename": "ToDo",
+      "path": "ToDo/ToDo.base"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

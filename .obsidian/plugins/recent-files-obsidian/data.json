@@ -1,0 +1,200 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Lern-Workflows",
+      "path": "Documentation/Lern-Workflows.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Notizen und Fragen",
+      "path": "Projects/Deutz/Kubernetes/Notizen und Fragen.md"
+    },
+    {
+      "basename": "Klassendiagramm (OOP-Loesung)",
+      "path": "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Klassendiagramm (OOP-Loesung).canvas"
+    },
+    {
+      "basename": "Datenmodell",
+      "path": "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Datenmodell.canvas"
+    },
+    {
+      "basename": "ToDo",
+      "path": "ToDo/ToDo.base"
+    },
+    {
+      "basename": "Marten Obsidian zeigen",
+      "path": "ToDo/Current/Marten Obsidian zeigen.md"
+    },
+    {
+      "basename": "Quiz 1 - Commits, Objekte & Rebase",
+      "path": "Documentation/git/Quiz 1 - Commits, Objekte & Rebase.md"
+    },
+    {
+      "basename": "Onboarding",
+      "path": "Documentation/Onboarding.md"
+    },
+    {
+      "basename": "Leseliste",
+      "path": "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Leseliste.md"
+    },
+    {
+      "basename": "2.1 Advanced SQL & ETL - Vertiefung",
+      "path": "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Vertiefung.md"
+    },
+    {
+      "basename": "2.1 Advanced SQL & ETL - Leitfaden",
+      "path": "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Leitfaden.md"
+    },
+    {
+      "basename": "2026-10-28",
+      "path": "Calendar/Daily/2026-10-28.md"
+    },
+    {
+      "basename": "1. Kubernetes-Grundlagen",
+      "path": "Projects/Deutz/Kubernetes/1. Kubernetes-Grundlagen.md"
+    },
+    {
+      "basename": "Kubernetes",
+      "path": "Projects/Deutz/Kubernetes/Kubernetes.md"
+    },
+    {
+      "basename": "2026-09-28",
+      "path": "Calendar/Daily/2026-09-28.md"
+    },
+    {
+      "basename": "2026-09-30",
+      "path": "Calendar/Daily/2026-09-30.md"
+    },
+    {
+      "basename": "2026-09-29",
+      "path": "Calendar/Daily/2026-09-29.md"
+    },
+    {
+      "basename": "2026-09-09",
+      "path": "Calendar/Daily/2026-09-09.md"
+    },
+    {
+      "basename": "2026-09-10",
+      "path": "Calendar/Daily/2026-09-10.md"
+    },
+    {
+      "basename": "2026-09-05",
+      "path": "Calendar/Daily/2026-09-05.md"
+    },
+    {
+      "basename": "2026-09-03",
+      "path": "Calendar/Daily/2026-09-03.md"
+    },
+    {
+      "basename": "2026-10-14",
+      "path": "Calendar/Daily/2026-10-14.md"
+    },
+    {
+      "basename": "2026-10-08",
+      "path": "Calendar/Daily/2026-10-08.md"
+    },
+    {
+      "basename": "2026-10-10",
+      "path": "Calendar/Daily/2026-10-10.md"
+    },
+    {
+      "basename": "2026-10-03",
+      "path": "Calendar/Daily/2026-10-03.md"
+    },
+    {
+      "basename": "2026-10-02",
+      "path": "Calendar/Daily/2026-10-02.md"
+    },
+    {
+      "basename": "2026-10-06",
+      "path": "Calendar/Daily/2026-10-06.md"
+    },
+    {
+      "basename": "2026-10-13",
+      "path": "Calendar/Daily/2026-10-13.md"
+    },
+    {
+      "basename": "Git von innen - ein Durchlauf",
+      "path": "Documentation/git/Git von innen - ein Durchlauf.md"
+    },
+    {
+      "basename": "Git Leseliste",
+      "path": "Documentation/git/Git Leseliste.md"
+    },
+    {
+      "basename": "designing_data_intensive_applications_2",
+      "path": "file:/home/nick/Documents/Bücher/Data Engineering/designing_data_intensive_applications_2.pdf"
+    },
+    {
+      "basename": "Daily",
+      "path": "Resources/Templater/Daily.md"
+    },
+    {
+      "basename": "Task",
+      "path": "Resources/Templater/Task.md"
+    },
+    {
+      "basename": "Kubernetes Befehlsreferenz",
+      "path": "Projects/Deutz/Kubernetes/Kubernetes Befehlsreferenz.md"
+    },
+    {
+      "basename": "Git Befehlsreferenz",
+      "path": "Documentation/git/Git Befehlsreferenz.md"
+    },
+    {
+      "basename": "Noch anschauen",
+      "path": "Documentation/git/Noch anschauen.md"
+    },
+    {
+      "basename": "2.2 OLAP Datenmodellierung & Datawarehousing - Leitfaden",
+      "path": "Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/2.2 OLAP Datenmodellierung & Datawarehousing - Leitfaden.md"
+    },
+    {
+      "basename": "Umsetzungsstand (Pricing-Dashboard)",
+      "path": "Documentation/Interview Vorbereitung/Deutz/React/Übungsprojekt/Umsetzungsstand (Pricing-Dashboard).md"
+    },
+    {
+      "basename": "Code-Review-Aufgaben (Pricing-Dashboard)",
+      "path": "Documentation/Interview Vorbereitung/Deutz/React/Übungsprojekt/Code-Review-Aufgaben (Pricing-Dashboard).md"
+    },
+    {
+      "basename": "Screenshot",
+      "path": "Documentation/Interview Vorbereitung/Deutz/React/Screenshot/Screenshot.md"
+    },
+    {
+      "basename": "1. React-Grundlagen - Vertiefung",
+      "path": "Documentation/Interview Vorbereitung/Deutz/React/Grundlagen/1. React-Grundlagen - Vertiefung.md"
+    },
+    {
+      "basename": "Lückenschluss (Pricing-Dashboard)",
+      "path": "Documentation/Interview Vorbereitung/Deutz/React/Übungsprojekt/Lückenschluss (Pricing-Dashboard).md"
+    },
+    {
+      "basename": "Frontend Vorgaben",
+      "path": "Projects/Deutz/Frontend Vorgaben.md"
+    },
+    {
+      "basename": "2026-10-07",
+      "path": "Calendar/Daily/2026-10-07.md"
+    },
+    {
+      "basename": "2026-10-11",
+      "path": "Calendar/Daily/2026-10-11.md"
+    },
+    {
+      "basename": "2026-10-09",
+      "path": "Calendar/Daily/2026-10-09.md"
+    },
+    {
+      "basename": "2026-10-05",
+      "path": "Calendar/Daily/2026-10-05.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

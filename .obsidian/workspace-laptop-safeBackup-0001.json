@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "2fb9257b581f6d1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "80c750394cca1f21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "257ec2553ecde1cf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c0b7cea54c5d918",
+    "type": "split",
+    "children": [
+      {
+        "id": "64fcee8c97469f17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99b4ef70120da91b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c5aba4ea9b704095",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0ec3f14f5349840c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "f25e71ab691d9dfc",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0e03d7fbce89a6a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "feaf800fa5c66afb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cb3cd0f525ccd03",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "cbeeea59f4df3925",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "326fe06cd7aced6a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a66fba0b3a9ef794",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4bfb8667a765f46b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "68d3f384d50a5a75",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
+          },
+          {
+            "id": "925fec0197cb0197",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "9c76ff55769b20b7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "68d3f384d50a5a75",
+  "lastOpenFiles": [
+    "Calendar/Untitled.md",
+    "ToDo/Sleeping",
+    "ToDo/Simmering",
+    "ToDo/Current",
+    "ToDo",
+    "Calendar/Untitled",
+    "Calendar/Weekly",
+    "Calendar/Daily",
+    "Calendar",
+    "preamble.sty",
+    "Welcome.md"
+  ]
+}
