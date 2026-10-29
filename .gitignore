@@ -1,3 +1,6 @@
 .sync*
 .next*
 /Documentation/Traineeship/Skalierbarkeit & ETL/Quellen/
+.sync_*
+.nextcloudsync.log
+.owncloudsync.log
