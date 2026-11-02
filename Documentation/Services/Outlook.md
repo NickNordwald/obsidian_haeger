@@ -14,4 +14,4 @@ Genutzt bei [[Haeger Consulting]] als Mail-Client.
 3. Termine im **Kalender** anlegen und bei Bedarf Einladungen an Kolleg:innen verschicken.
 
 ---
-Übersicht: [[Documentation/Websites und Services]]
+Übersicht: [[Websites und Services]]

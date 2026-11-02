@@ -35,8 +35,8 @@ Ich (Nick) bin seit dem **01.07.2026** als **Data Engineer Trainee** in der Abte
 - [[Documentation/People/Ralf Haeger.md|Ralf Haeger]] — Gründer & Geschäftsführer (Vater von [[Documentation/People/David Haeger.md|David Haeger]])
 
 ## Onboarding & Regelungen
-- [[Documentation/Onboarding.md|Onboarding – Die wichtigsten Basics für den Start]]
-- [[Documentation/Arbeitszeiten-Regelung.md|Arbeitszeiten-Regelung]] (was zählt als Arbeitszeit, Anwesenheit, Erreichbarkeit, Überstunden)
+- [[Onboarding|Onboarding – Die wichtigsten Basics für den Start]]
+- [[Arbeitszeiten-Regelung|Arbeitszeiten-Regelung]] (was zählt als Arbeitszeit, Anwesenheit, Erreichbarkeit, Überstunden)
 - [[Documentation/Services/PGP.md|PGP-Verschlüsselung]] (Pflicht für dienstliche E-Mails mit sensiblen Daten)
 
 ## Genutzte Tools & Services
@@ -50,4 +50,4 @@ Bei Haeger Consulting werden u. a. folgende Services eingesetzt (Details siehe j
 - [[Documentation/Services/OneDrive.md|OneDrive]] (als Cloud Solution)
 - [[Documentation/Services/Outlook.md|Outlook]] (als Mail Client)
 
-Vollständige Übersicht: [[Documentation/Websites und Services.md]]
+Vollständige Übersicht: [[Websites und Services]]

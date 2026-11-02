@@ -4,7 +4,7 @@ tags:
 ---
 # Onboarding – Die wichtigsten Basics für den Start
 
-Zusammenfassung der Einstiegs-Infos für neue Mitarbeitende bei [[Documentation/Haeger Consulting.md|Haeger Consulting]].
+Zusammenfassung der Einstiegs-Infos für neue Mitarbeitende bei [[Haeger Consulting|Haeger Consulting]].
 
 Quelle: [[Resources/Startdokumente/1_Basics für den Start.pdf|1_Basics für den Start.pdf]] (Original mit allen Details)
 
@@ -14,16 +14,16 @@ Quelle: [[Resources/Startdokumente/1_Basics für den Start.pdf|1_Basics für den
 - Urlaubswünsche frühzeitig über Personio einreichen, Rückmeldung kommt von People Operations.
 
 ## Anwesenheit im Büro
-- Bürotage im Google-Docs-„Raumplan" eintragen (siehe Eintrag in [[Documentation/Websites und Services.md]]), optional 2×/Woche zusätzlich Parkplatz reservieren. Bei Ausfall rechtzeitig austragen, um Platz/Parkplatz freizugeben.
+- Bürotage im Google-Docs-„Raumplan" eintragen (siehe Eintrag in [[Websites und Services]]), optional 2×/Woche zusätzlich Parkplatz reservieren. Bei Ausfall rechtzeitig austragen, um Platz/Parkplatz freizugeben.
 - Als Trainee: **mind. 3× pro Woche** im Büro erwartet. Abweichungen nach Absprache mit [[Documentation/People/Sara.md|Sara]] möglich.
-- Details zur individuellen Anwesenheitsregelung: siehe [[Documentation/Arbeitszeiten-Regelung.md]].
+- Details zur individuellen Anwesenheitsregelung: siehe [[Arbeitszeiten-Regelung]].
 
 ## Integration
 Büropräsenz aktiv nutzen, um Kolleg:innen kennenzulernen — Mittrainees genauso wie erfahrene Consultants. Ob an der Kaffeemaschine oder beim gemeinsamen Mittagessen: bewusst dabei sein.
 
 ## Kernerreichbarkeit
 - Dienstliche E-Mails auch während Projekteinsätzen täglich checken.
-- In projektfreien Zeiten: telefonisch und per E-Mail zwischen **10:00–15:30 Uhr** erreichbar sein (Details siehe [[Documentation/Arbeitszeiten-Regelung.md]]).
+- In projektfreien Zeiten: telefonisch und per E-Mail zwischen **10:00–15:30 Uhr** erreichbar sein (Details siehe [[Arbeitszeiten-Regelung]]).
 - Bei Unerreichbarkeit innerhalb dieser Zeit kurz an `verwaltung@haeger-consulting.de` abmelden.
 
 ## Kommunikationsmittel
@@ -47,4 +47,4 @@ Optional ist ein **Deutschlandticket** verfügbar (Eigenanteil 29 €/Monat) —
 | Gehaltsabrechnung | [[Documentation/People/Elke Krahm.md\|Elke Krahm]] |
 
 ---
-Übersicht: [[Documentation/Haeger Consulting.md]]
+Übersicht: [[Haeger Consulting]]

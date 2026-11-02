@@ -11,7 +11,7 @@ Bereitgestellt von: **debanjandhar12** ([GitHub](https://github.com/debanjandhar
 
 Voraussetzung: **Anki muss laufen** und das Add-on **AnkiConnect** installiert haben. Ausgelöst wird der Abgleich über den Befehl **„Start Obsidian Anki Sync"** oder das Anki-Symbol in der Ribbon-Leiste.
 
-Übersicht aller Dienste: [[Documentation/Websites und Services|Websites und Services]]
+Übersicht aller Dienste: [[Websites und Services|Websites und Services]]
 
 Im Vault genutzt für die Karteikarten des [[Documentation/Traineeship/Grundlagen der Software Entwicklung/Kapitelabschluss - Q&A-Ernte und blinde Flecken|Traineeships]] — rund 900 Karten über alle Kapitel.
 

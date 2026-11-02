@@ -9,7 +9,7 @@ team: []
 ---
 # Spieleabend
 
-Interner, regelmäßiger Spieleabend bei [[Documentation/Haeger Consulting|Haeger Consulting]] — halb-formelles Format zum Kennenlernen über Team- und Abteilungsgrenzen hinweg, niedrigschwellig und ohne Anmeldezwang.
+Interner, regelmäßiger Spieleabend bei [[Haeger Consulting|Haeger Consulting]] — halb-formelles Format zum Kennenlernen über Team- und Abteilungsgrenzen hinweg, niedrigschwellig und ohne Anmeldezwang.
 
 > [!info] Status
 > In Vorbereitung. Erster Termin: **Montag, 14.09.2026**. Offene Punkte laufen über [[ToDo/Done/Spieleabend|den zugehörigen Task]].
@@ -156,5 +156,5 @@ Freue mich drauf!
 ## Verbunden
 
 - Task: [[ToDo/Done/Spieleabend]]
-- Firma: [[Documentation/Haeger Consulting]]
+- Firma: [[Haeger Consulting]]
 - Services: [[Documentation/Services/Confluence]], [[Documentation/Services/Slack]], [[Documentation/Services/Teams]], [[Documentation/Services/Outlook]]

@@ -4,11 +4,11 @@ tags:
 ---
 # PGP-Verschlüsselung (Gpg4win / Kleopatra)
 
-PGP (Pretty Good Privacy) wird bei [[Documentation/Haeger Consulting.md|Haeger Consulting]] zum Verschlüsseln sensibler E-Mails eingesetzt. Unter Windows kommt dafür **Gpg4win** mit der Zertifikatsverwaltung **Kleopatra** zum Einsatz.
+PGP (Pretty Good Privacy) wird bei [[Haeger Consulting|Haeger Consulting]] zum Verschlüsseln sensibler E-Mails eingesetzt. Unter Windows kommt dafür **Gpg4win** mit der Zertifikatsverwaltung **Kleopatra** zum Einsatz.
 
 Bereitgestellt von: **GnuPG-Projekt** (freie/Open-Source-Software, Windows-Installer über [gpg4win.de](https://www.gpg4win.de)) — anders als die übrigen Services kein kommerzieller Anbieter.
 
-Genutzt bei [[Documentation/Haeger Consulting.md|Haeger Consulting]], um sensible Daten verschlüsselt per E-Mail zu versenden. Jede:r Mitarbeitende erstellt dafür einen eigenen PGP-Key für die dienstliche E-Mail-Adresse (siehe auch [[Documentation/Onboarding.md|Onboarding-Basics]]).
+Genutzt bei [[Haeger Consulting|Haeger Consulting]], um sensible Daten verschlüsselt per E-Mail zu versenden. Jede:r Mitarbeitende erstellt dafür einen eigenen PGP-Key für die dienstliche E-Mail-Adresse (siehe auch [[Onboarding|Onboarding-Basics]]).
 
 Quelle: [[Resources/Startdokumente/PGP Quick Guide1.0.pdf|PGP Quick Guide 1.0]] (Original mit bebilderter Schritt-für-Schritt-Anleitung, Autor: [[Documentation/People/David Haeger.md|David Haeger]])
 
@@ -38,4 +38,4 @@ Standardmäßig kein Ablaufdatum, kann aber nachträglich angepasst werden:
 Nach jeder Verlängerung den aktualisierten Key erneut an `verwaltung@haeger-consulting.de` schicken.
 
 ---
-Übersicht: [[Documentation/Websites und Services.md]]
+Übersicht: [[Websites und Services]]

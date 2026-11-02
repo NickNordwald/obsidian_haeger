@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Lern-Workflows",
-      "path": "Documentation/Lern-Workflows.md"
-    },
-    {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "Documentation/Agentic Coding/AGENTS.md"
+    },
+    {
+      "basename": "Lern-Workflows",
+      "path": "Documentation/Agentic Coding/Lern-Workflows.md"
+    },
+    {
+      "basename": "Arbeitszeiten-Regelung",
+      "path": "Documentation/Haeger/Arbeitszeiten-Regelung.md"
+    },
+    {
+      "basename": "Haeger Consulting",
+      "path": "Documentation/Haeger/Haeger Consulting.md"
+    },
+    {
+      "basename": "Websites und Services",
+      "path": "Documentation/Haeger/Websites und Services.md"
+    },
+    {
+      "basename": "Onboarding",
+      "path": "Documentation/Haeger/Onboarding.md"
     },
     {
       "basename": "Notizen und Fragen",
@@ -31,10 +51,6 @@
     {
       "basename": "Quiz 1 - Commits, Objekte & Rebase",
       "path": "Documentation/git/Quiz 1 - Commits, Objekte & Rebase.md"
-    },
-    {
-      "basename": "Onboarding",
-      "path": "Documentation/Onboarding.md"
     },
     {
       "basename": "Leseliste",
@@ -179,18 +195,6 @@
     {
       "basename": "2026-10-07",
       "path": "Calendar/Daily/2026-10-07.md"
-    },
-    {
-      "basename": "2026-10-11",
-      "path": "Calendar/Daily/2026-10-11.md"
-    },
-    {
-      "basename": "2026-10-09",
-      "path": "Calendar/Daily/2026-10-09.md"
-    },
-    {
-      "basename": "2026-10-05",
-      "path": "Calendar/Daily/2026-10-05.md"
     }
   ],
   "omittedPaths": [],

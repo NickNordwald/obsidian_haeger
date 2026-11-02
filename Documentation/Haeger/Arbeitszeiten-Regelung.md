@@ -4,7 +4,7 @@ tags:
 ---
 # Arbeitszeiten-Regelung
 
-Regelung von [[Documentation/Haeger Consulting.md|Haeger Consulting]] dazu, was als Arbeitszeit zählt, sowie zu Büroanwesenheit, Erreichbarkeit und Überstunden. Ergänzt die [[Documentation/Onboarding.md|Onboarding-Basics]].
+Regelung von [[Haeger Consulting|Haeger Consulting]] dazu, was als Arbeitszeit zählt, sowie zu Büroanwesenheit, Erreichbarkeit und Überstunden. Ergänzt die [[Onboarding|Onboarding-Basics]].
 
 Quelle: [[Resources/Startdokumente/2_Arbeitszeiten-Regelung.pdf|2_Arbeitszeiten-Regelung.pdf]]
 
@@ -34,4 +34,4 @@ Es gibt eine individuelle Regelung zur Büroanwesenheit pro Person, die auch wä
 - Im Kundenprojekt: abhängig von den individuellen Vertragsbedingungen, i. d. R. im Briefing-Sheet zu Projektbeginn dokumentiert — bei Unsicherheit nachfragen.
 
 ---
-Übersicht: [[Documentation/Haeger Consulting.md]]
+Übersicht: [[Haeger Consulting]]

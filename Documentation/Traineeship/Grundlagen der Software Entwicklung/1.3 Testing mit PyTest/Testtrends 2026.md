@@ -80,7 +80,7 @@ Zusätzlich **wächst** eine Unit-Test-Spielart klar: **Property-based Testing**
 
 # Data Engineering: der eigentliche Sonderfall
 
-Für die berufliche Praxis bei [[Documentation/Haeger Consulting.md|Haeger Consulting]] relevant: Im Data Engineering ist die Verschiebung am deutlichsten — dort testet man überwiegend **Daten**, nicht **Code**.
+Für die berufliche Praxis bei [[Haeger Consulting|Haeger Consulting]] relevant: Im Data Engineering ist die Verschiebung am deutlichsten — dort testet man überwiegend **Daten**, nicht **Code**.
 
 | Ebene | Werkzeuge | Was geprüft wird |
 |---|---|---|

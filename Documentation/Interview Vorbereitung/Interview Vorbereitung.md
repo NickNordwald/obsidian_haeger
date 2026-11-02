@@ -37,7 +37,7 @@ Unterschied zum Traineeship: kein Leitfaden vom Unternehmen (den ersetzt der Ler
 
 ## Verwandt
 
-- [[Documentation/Haeger Consulting.md|Haeger Consulting]] — aktueller Arbeitgeber
-- [[Documentation/Websites und Services.md|Websites und Services]]
+- [[Haeger Consulting|Haeger Consulting]] — aktueller Arbeitgeber
+- [[Websites und Services|Websites und Services]]
 - [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Vertiefung|1.5 REST APIs & Layered Architecture]] — das Backend, auf das das React-Übungsprojekt aufsetzt
 - [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/1.7 Docker - Vertiefung|1.7 Docker]] — Vorwissen und Ausgangspunkt der Kubernetes-Übung

@@ -14,4 +14,4 @@ Genutzt bei [[Haeger Consulting]] als Cloud-Lösung.
 3. Für Freigaben Rechtsklick auf die Datei/den Ordner → **Freigeben** und Empfänger bzw. Link-Berechtigung festlegen.
 
 ---
-Übersicht: [[Documentation/Websites und Services]]
+Übersicht: [[Websites und Services]]

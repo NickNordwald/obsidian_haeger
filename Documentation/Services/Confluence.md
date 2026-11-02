@@ -101,4 +101,4 @@ Seiten oder ganze Spaces lassen sich als **PDF** oder **Word-Dokument** exportie
 - Den **Seitenverlauf** nicht scheuen — nichts geht durch Bearbeiten verloren, ältere Versionen lassen sich jederzeit wiederherstellen.
 
 ---
-Übersicht: [[Documentation/Websites und Services]]
+Übersicht: [[Websites und Services]]

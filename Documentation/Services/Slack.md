@@ -14,4 +14,4 @@ Genutzt bei [[Haeger Consulting]] für die interne Kommunikation.
 3. Nachrichten senden, in **Threads** antworten und Dateien direkt im Chat teilen.
 
 ---
-Übersicht: [[Documentation/Websites und Services]]
+Übersicht: [[Websites und Services]]

@@ -9,7 +9,7 @@ team: []
 ---
 # Deutz
 
-Hub-Notiz für das Projekt bei der Deutz AG, Nicks erstes Kundenprojekt bei [[Documentation/Haeger Consulting|Haeger Consulting]].
+Hub-Notiz für das Projekt bei der Deutz AG, Nicks erstes Kundenprojekt bei [[Haeger Consulting|Haeger Consulting]].
 
 > [!todo] Noch offen
 > Kunde (Firmen-Notiz unter `Documentation/`), Projektstart und Team sind noch nicht eingetragen.

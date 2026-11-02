@@ -14,4 +14,4 @@ Genutzt bei [[Haeger Consulting]] zur Arbeitszeiterfassung.
 3. Urlaub/Abwesenheiten über den Menüpunkt **Abwesenheiten** beantragen.
 
 ---
-Übersicht: [[Documentation/Websites und Services]]
+Übersicht: [[Websites und Services]]

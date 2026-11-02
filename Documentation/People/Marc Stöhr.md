@@ -2,11 +2,11 @@
 tags:
   - person
 role: Ansprechpartner IT / Einrichtung von Zugangsdaten
-company: "[[Documentation/Haeger Consulting.md|Haeger Consulting]]"
+company: "[[Haeger Consulting|Haeger Consulting]]"
 email: marc.stoehr@haeger-consulting.de
 ---
 # Marc Stöhr
 
 Ansprechpartner bei Fragen zur Einrichtung von Zugangsdaten.
 
-Quelle: [[Documentation/Onboarding.md|Onboarding-Basics]]
+Quelle: [[Onboarding|Onboarding-Basics]]

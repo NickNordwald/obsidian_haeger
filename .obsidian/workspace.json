@@ -34,22 +34,74 @@
                   "activeTabId": "tab-1793175352148-78ob4jp"
                 }
               },
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           },
           {
-            "id": "d33f9bc9310413a4",
+            "id": "718998ac8d06a97d",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent Chat"
+            }
+          },
+          {
+            "id": "ef2df7745290e0b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Lern-Workflows.md",
+                "file": "Documentation/Agentic Coding/AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lern-Workflows"
+              "title": "AGENTS"
+            }
+          },
+          {
+            "id": "98ddd29632514429",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "d67cc6b069af2381",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "16383a88e71fdf25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
             }
           }
         ],
@@ -201,16 +253,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Lern-Workflows.md",
+                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
             }
+          },
+          {
+            "id": "725454c5638f172b",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "document",
+              "title": "Timeline"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "517a569d1bdf6373",
@@ -257,16 +319,6 @@
             }
           },
           {
-            "id": "718998ac8d06a97d",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-agent-chat-view",
-              "state": {},
-              "icon": "copilot-agent",
-              "title": "Copilot Agent Chat"
-            }
-          },
-          {
             "id": "17a55c6437e901a7",
             "type": "leaf",
             "state": {
@@ -277,17 +329,14 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 617.7135009765625
+    "width": 403.1138916015625
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Agent Chat": false,
-      "realclaudian:Open Claudian": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -297,53 +346,56 @@
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
+      "realclaudian:Open Claudian": false,
+      "ObsidianAnkiSync:Start Obsidian Anki Sync": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "ObsidianAnkiSync:Start Obsidian Anki Sync": false,
+      "copilot:Open Copilot Agent Chat": false,
+      "obsidian-git:Open Git source control": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "17a55c6437e901a7",
+  "active": "718998ac8d06a97d",
   "lastOpenFiles": [
-    "Thema lernen.md",
-    "How to write AGENT files.md",
-    "Code dokumentieren.md",
-    "Codebase verstehen.md",
-    "AGENTS.md",
+    "Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md",
+    "Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md.tmp.406.f498b0d10d0f",
+    "CLAUDE.md.tmp.406.fbf90a85f80b",
+    "markdownlint-cli2.jsonc",
+    "Documentation/Agentic Coding/AGENTS.md",
+    "CLAUDE.md.tmp.1720.535e98209ce5",
     "CLAUDE.md",
+    "Documentation/Agentic Coding/CLAUDE veraltet - Skalierbarkeit und ETL.md",
+    "Documentation/Agentic Coding/CLAUDE veraltet - Vault.md",
+    "Documentation/Agentic Coding/Workflows/Thema lernen.md",
+    "Documentation/Agentic Coding/Workflows/Codebase verstehen.md",
+    "Documentation/Agentic Coding/Workflows/Code dokumentieren.md",
+    "Documentation/Agentic Coding/Workflows",
+    "Documentation/Agentic Coding/Thema lernen.md",
+    "copilot/copilot-conversations/agent__Wo_in_diesem_Ordner_aus_in_DocumentationAgentic_Coding_gibt_es@20261029_194322.md",
+    "copilot/copilot-conversations",
+    "Documentation/Agentic Coding/Lern-Workflows.md",
+    "Documentation/Haeger/Arbeitszeiten-Regelung.md",
+    "Documentation/Agentic Coding",
+    "Documentation/Haeger/Haeger Consulting.md",
+    "Documentation/Haeger/Websites und Services.md",
+    "Documentation/Haeger/Onboarding.md",
+    "Documentation/Haeger",
+    "Documentation/Agentic Coding/How to write AGENT files.md",
+    "Documentation/Agentic Coding/Code dokumentieren.md",
+    "Documentation/Agentic Coding/Codebase verstehen.md",
+    "Documentation/Agentic Coding/CLAUDE.md",
     "Projects/Deutz/Kubernetes/Notizen und Fragen.md",
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/obsidian-cli/LICENSE",
     "copilot/skills/obsidian-cli",
     "copilot/skills/json-canvas/SKILL.md",
-    "copilot/skills/json-canvas/LICENSE",
     "copilot/skills/json-canvas/references/EXAMPLES.md",
-    "copilot/skills/json-canvas/references",
-    "copilot/skills/json-canvas",
     "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/LICENSE",
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-bases/references",
-    "copilot/skills/obsidian-bases",
-    "copilot/skills/obsidian-markdown/SKILL.md",
-    "copilot/skills/obsidian-markdown/LICENSE",
-    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
-    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
-    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/obsidian-markdown/references",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md",
-    "Documentation/Untitled.md",
-    "Untitled.md",
     "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Klassendiagramm (OOP-Loesung).canvas",
     "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Datenmodell.canvas",
     "test.canvas",
-    "ToDo/Current/Marten Obsidian zeigen.md",
-    "Documentation/git/Quiz 1 - Commits, Objekte & Rebase.md",
-    "Documentation/Onboarding.md",
-    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Leseliste.md",
-    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Vertiefung.md",
     "Resources/Images/Pricing-Dashboard Design.png",
     "Resources/Images/Pricing-Dashboard Phase 8.png",
     "Resources/Images/Pasted image 20261020161627.png",

@@ -8,7 +8,7 @@ Jira ist die Projekt- und Vorgangsverwaltungssoftware (Issue-Tracking) von Atlas
 
 Bereitgestellt von: **Atlassian Corporation** (Australien/USA) — dieselbe Firma wie bei [[Documentation/Services/Confluence.md|Confluence]], mit dem Jira eng verzahnt ist (gemeinsamer Anbieter, gemeinsame Cloud-Instanz, gegenseitige Verlinkung von Inhalten).
 
-Genutzt bei [[Documentation/Haeger Consulting.md|Haeger Consulting]] zur Planung und Nachverfolgung von Projekt- und Entwicklungsarbeit.
+Genutzt bei [[Haeger Consulting|Haeger Consulting]] zur Planung und Nachverfolgung von Projekt- und Entwicklungsarbeit.
 
 > [!tip] Grundprinzip
 > In Jira dreht sich alles um **Issues** (Vorgänge) — einzelne Arbeitseinheiten, die einen **Status** durchlaufen (z. B. "To Do" → "In Progress" → "Done"). Projekte, Boards, Sprints und Berichte sind letztlich nur verschiedene Sichten und Organisationsformen auf genau diese Issues.
@@ -90,4 +90,4 @@ Auf Issue-Ebene lässt sich geleistete Arbeitszeit als **Worklog** erfassen sowi
 - Bei wiederkehrenden Suchanfragen einen **eigenen Filter speichern**, statt die JQL-Abfrage jedes Mal neu zu tippen.
 
 ---
-Übersicht: [[Documentation/Websites und Services.md]]
+Übersicht: [[Websites und Services]]

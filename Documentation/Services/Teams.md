@@ -79,4 +79,4 @@ Die globale Suche findet Nachrichten, Dateien und Personen teamübergreifend. Ü
 - Den **Präsenzstatus** bewusst nutzen/beachten, um Erreichbarkeit realistisch einzuschätzen.
 
 ---
-Übersicht: [[Documentation/Websites und Services]]
+Übersicht: [[Websites und Services]]

@@ -2,7 +2,6 @@
   "userName": "Nick",
   "permissionMode": "yolo",
   "model": "opus",
-  "thinkingBudget": "off",
   "effortLevel": "medium",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -36,7 +35,6 @@
       "environmentVariables": "",
       "environmentHash": "",
       "enabled": true,
-      "responseStyle": "Default",
       "modelAliases": {},
       "visibleModels": [
         "haiku",
@@ -101,7 +99,13 @@
             "max"
           ]
         }
-      ]
+      ],
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "outputStyle": null,
+      "promptSuggestions": false,
+      "discoveredOutputStyles": [],
+      "sessionEnvironmentHash": ""
     },
     "codex": {
       "enabled": false,
@@ -121,7 +125,9 @@
       "visibleModels": [],
       "enableUltraEffort": false,
       "responseStyle": "pragmatic",
-      "selectedModels": []
+      "selectedModels": [],
+      "responseVerbosity": "default",
+      "sessionEnvironmentHash": ""
     },
     "opencode": {
       "cliPath": "",
@@ -131,12 +137,15 @@
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "selectedMode": "",
       "thinkingOptionsByModel": {},
       "visibleModels": [],
-      "selectedModels": []
+      "selectedModels": [],
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {}
     },
     "pi": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
       "cliPath": "",
       "cliPathsByHost": {},
       "enabled": false,
@@ -144,10 +153,14 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
+      "sessionEnvironmentHash": "",
       "visibleModels": [],
       "selectedModels": []
     },
     "grok": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "sessionEnvironmentHash": "",
       "cliPath": "",
       "cliPathsByHost": {},
       "enabled": false,
@@ -157,6 +170,21 @@
       "preferredReasoningByModel": {},
       "visibleModels": [],
       "selectedModelsByHost": {}
+    },
+    "deepseek": {
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "enabled": false,
+      "codeMode": false,
+      "presetPlugins": "",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "environmentVariables": "",
+      "environmentHash": "",
+      "visibleModels": [],
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "selectedModels": []
     }
   },
   "settingsProvider": "claude",
@@ -164,6 +192,7 @@
     "providerId": "claude",
     "model": "opus"
   },
+  "inlineEditModel": null,
   "savedProviderModel": {
     "claude": "opus"
   },
@@ -171,26 +200,29 @@
     "claude": "medium"
   },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
   "pendingProviderSessionInvalidations": {},
-  "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
   "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
+  "pluginRenderedFenceLanguages": [],
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
   "enableZenMode": true,
+  "zenModePosition": null,
   "enableDualPane": true,
   "dualPaneSide": "right",
   "restoreTabsOnStartup": true,
   "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
+  "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
   "hiddenCommands": [],
+  "thinkingBudget": "off",
+  "savedProviderThinkingBudget": {},
   "customModelAliases": {},
   "lastCustomModel": "",
   "maxTabs": 5
