@@ -1,168 +1,151 @@
----
-anki-sync: false
----
+# Agent-Anweisungen
 
-# CLAUDE.md — Arbeits-Vault von Nick (Haeger Consulting)
+Dieses Dokument beschreibt Struktur und Konventionen dieses Obsidian Vaults für Agents.
 
-Dieses Dokument beschreibt Struktur und Konventionen dieses Obsidian-Vaults für Claude/Claudian. Ziel des Vaults: Nick (Data Engineer Trainee bei [[Documentation/Haeger Consulting.md|Haeger Consulting]]) bei der Strukturierung und Dokumentation seiner Arbeitsprojekte unterstützen — mit sinnvollen Backlinks und einer konsistenten Tag-Taxonomie, damit alles verbunden und auffindbar bleibt.
+## Ziel des Vaults
 
-**Sprache**: Notizinhalte werden auf Deutsch verfasst, auch wenn die Konversation mit dem Nutzer auf einer anderen Sprache läuft.
+1. Dokumentation von Arbeitsprojekten als Data Engineer Trainee bei [[Haeger Consulting]], z. B. bei der Deutz AG
+2. Lernen von Themen aus dem Traineeship und neuer Techniken, die für die Arbeit an den Projekten wichtig sind
+3. Erklären von bestehenden Codebases für neue Nutzer
 
-## Grundprinzip
+## Deine Aufgaben
 
-Bestehende Strukturen respektieren, bevor neue erfunden werden. Vor dem Anlegen einer neuen Notiz immer kurz prüfen (Dateiname/Grep), ob es die betreffende Entität (Person, Service, Projekt, Firma) nicht schon gibt — Duplikate vermeiden, stattdessen verlinken.
+- Erstelle Dokumentation.
+- Halte den Vault aufgeräumt und gut strukturiert.
+- Hilf dabei, Themen in der Tiefe zu verstehen.
 
-Bei Unsicherheit über Fakten (z. B. Firmen-/Projektdetails) nicht raten. Entweder aktiv recherchieren (WebFetch/defuddle für öffentliche Quellen) oder beim Nutzer nachfragen — nichts Erfundenes ins Vault schreiben.
+## Struktur
 
-## Ordnerstruktur
+- `Calendar` enthält tägliche bzw. wöchentliche Notizen in den Unterordnern `Daily` und `Weekly` im Format `JJJJ-MM-TT` bzw. `JJJJ-WWW`, z. B. `2026-W27`.
+- `ToDo` enthält das Task-Management. Der Zustand eines Tasks ergibt sich aus dem Unterordner: `Current`, `Simmering`, `Sleeping` oder `Done`.
+- `Documentation` enthält Dokumentation zu Technologien, Personen, Services, zu Haeger Consulting und zum Traineeship. Jedes Thema bekommt einen eigenen Unterordner.
+- `Projects` enthält die Arbeitsprojekte. Jedes Projekt bekommt einen eigenen Unterordner, z. B. `Deutz`.
+- `Resources` enthält Templates, Bases, Canvases sowie Anhänge.
+- `Zarchive` ist das Archiv für nicht mehr aktive Inhalte.
 
-| Ordner | Zweck |
-|---|---|
-| `Calendar/Daily/`, `Calendar/Weekly/` | Tages-/Wochennotizen (Templater-generiert, embedden `ToDo/ToDo.base`) |
-| `ToDo/Current/`, `ToDo/Simmering/`, `ToDo/Sleeping/` | Task-Management — Zustand wird über den **Ordner** abgebildet, nicht über einen Tag |
-| `Documentation/Services/` | Eine Notiz pro genutztem Tool/Service |
-| `Documentation/People/` | Eine Notiz pro relevanter Person |
-| `Documentation/` (Root) | Firmenprofile und sonstige Referenzdokumentation |
-| `Projects/` | Arbeitsprojekte (siehe unten) — neu eingeführt |
-| `Resources/Templater/` | Notiz-Vorlagen |
-| `Resources/Bases/`, `Resources/Canvases/`, `Resources/Images/` | Base-Dateien, Canvases, Bilder |
-| `Resources/Startdokumente/` | Rohe Quelldokumente (PDFs etc., z. B. vom Arbeitsrechner) — werden **nicht** dupliziert, sondern von einer passenden `Documentation/`-Notiz aus per Wikilink referenziert (siehe z. B. `Documentation/Services/PGP.md` → `Resources/Startdokumente/PGP Quick Guide1.0.pdf`) |
-| `Zarchive/` | Archiv für nicht mehr aktive Inhalte |
+## Konventionen
 
-## Task-System (`ToDo/`)
+- Vermeide doppelte Notizen. Jedes Thema hat eine Notiz, in der es ausführlich beschrieben ist.
+- Schreibe in jede Notiz, was man an dieser Stelle zum Verstehen braucht, auch wenn es anderswo schon steht. Wiederhole dabei höchstens eins bis fünf Sätze. Braucht es mehr, verlinke auf die ausführliche Notiz und sag in einem Satz, was dort steht. Beispiel: „Nutzt [[Kafka]] als Message Queue zwischen den Services“ statt nur „Nutzt [[Kafka]]“.
+- Verwende in Dateinamen keine Sonderzeichen. Leerzeichen sind erlaubt.
 
-Frontmatter-Schema (siehe `Resources/Templater/Task.md`):
-```yaml
-importance:
-type:
-energy:
-effort:
-scheduled:
-deadline:
-creation:
-completed:
-tags:
-  - "#task"
-```
-Der Zustand eines Tasks wird durch den **Ordner** bestimmt (`Current` = aktiv, `Simmering` = später/köchelt, `Sleeping` = pausiert/geparkt), nicht durch ein Statusfeld. `ToDo/ToDo.base` aggregiert alle drei Ordner plus eine "Today"-Ansicht. Beim Anlegen neuer Tasks dieses Schema und die `"#task"`-Tag-Schreibweise (mit Raute, als String) beibehalten — das ist eine bewusste Ausnahme von der sonstigen Tag-Konvention unten.
+## Stil
 
-## Documentation-System (`Documentation/`)
+- Schreibe Notizen auf Deutsch. Behalte englische Fachbegriffe bei, wenn sie üblich sind, z. B. Commit oder Library.
+- Schreibe sachlich, knapp und präzise. Verzichte auf Füllsätze und Einleitungen wie „In dieser Notiz geht es um …“.
+- Nutze Überschriften und Listen, wenn sie das Nachschlagen erleichtern. Schreibe Zusammenhänge und Begründungen als Fließtext.
+- Verwende für einen Begriff im ganzen Vault dieselbe Bezeichnung. Ist ein Begriff schon etabliert, übernimm ihn.
+- Verwende keine Emojis.
 
-- **Services** (`Documentation/Services/<Name>.md`): Tag `documentation`, kurze Erklärung was der Service kann + Anbieter-Unternehmen, plus Kurzanleitung. Vorbild: `Documentation/Services/Confluence.md`.
-- **People** (`Documentation/People/<Name>.md`): Tag `person`, Frontmatter `role`, `company` (Wikilink zur Firma). Vorbild: `Documentation/People/Martin Stoller.md`.
-- **Firmen/Kunden** (`Documentation/<Firma>.md`): Tag `documentation`, Frontmatter `type: company`, öffentlich recherchierbare Fakten (Branche, Standort, Größe, Website) sauber von persönlichem Kontext (eigene Rolle, Team) trennen.
+## Formatierung
 
-## Traineeship-Kapitel (`Documentation/Traineeship/`)
+Mechanische Regeln wie Leerzeilen, Überschriften-Ebenen, Listenzeichen, Codeblöcke und URLs legt `.markdownlint-cli2.jsonc` fest. Sie werden mit dem Check unter „Überprüfung“ geprüft. Hier stehen die Regeln, die der Linter nicht prüft.
 
-Der Lernpfad ist in Bereiche (z. B. `Grundlagen der Software Entwicklung/`) und darin in nummerierte Unterkapitel gegliedert (z. B. `Relationale Datenbanken & ORM/`, `Testing mit PyTest/`). Pro Unterkapitel:
+### Überschriften und Absätze
 
-- **`X.Y <Thema> - Leitfaden.md`** — vom Unternehmen vorgegeben (Motivation, Stichworte, Kontrollfragen, Übungsaufgabe). **Nicht verändern.**
-- **`X.Y <Thema> - Vertiefung.md`** — von Claudian erstellt und **Stichwort für Stichwort** ausgebaut (wächst mit, nicht auf einmal fertigstellen). Vorbild: `1.3 Testing mit PyTest - Vertiefung.md`.
-- **`Anki Karteikarten.md`** — parallel zur Vertiefung gepflegt, `deck`-Frontmatter passend zur Ordnerstruktur (`Traineeship::<Bereich>::<Unterkapitel>`), Fortschritts-Checkliste oben, Karten pro behandeltem Stichwort. **Nur Basic-Karten** (Frage/Antwort mit `::`) — keine Cloze-Karten (Lückentexte). Die Kartenzahl richtet sich nach dem Stoff: **~10 Karten pro Stichwort sind der Richtwert**, bei dichten Stichworten (z. B. HTTP-Statuscodes, FastAPI) dürfen es mehr sein, bei dünnen weniger. Kein Auffüllen auf eine Zielzahl: Lieber verwandte Punkte zu einer Karte zusammenfassen; was nicht auf eine Karte passt, bleibt in der Vertiefung.
-- **`Übungsaufgabe/`** (Unterordner, falls das Kapitel eine Implementierung verlangt) — `Umsetzungsstand (<Thema>).md` als laufendes Statusdokument.
+- Die Überschrift erster Ebene entspricht dem Dateinamen.
+- Nutze höchstens Ebene 4. Beginne Überschriften groß und nummeriere sie nicht.
+- Schreibe jeden Absatz in eine Zeile, ohne manuelle Zeilenumbrüche.
 
-### Anki-Karteikarten anlegen — verbindliches Format
+### Listen
 
-> [!danger] Ein neuer Kartenblock hat KEIN `oid`-Attribut
-> Nicht `oid=""`, nicht `oid="undefined"` — das Attribut fehlt schlicht. Das Sync-Plugin trägt die Kennung nach dem ersten erfolgreichen Abgleich selbst ein.
->
-> **Niemals das Blockformat aus einer bestehenden Datei kopieren**, ohne den `oid`-Teil zu entfernen. Genau so ist der Fehler entstanden, der 151 Karten monatelang unbemerkt nicht nach Anki übertragen hat.
+- Nutze nummerierte Listen nur, wenn die Reihenfolge zählt.
+- Beginne jeden Eintrag groß. Beende vollständige Sätze mit einem Punkt, Stichworte ohne.
+- Rücke verschachtelte Einträge mit einem Tab ein.
 
-Korrekter Block:
+### Auszeichnung und Links
 
-```markdown
-<!-- basicblock-start -->
-Die Frage, Markdown erlaubt::
-Die Antwort in **einer** Zeile, Zeilenumbrüche als `<br>`
-<!-- basicblock-end -->
-```
+- Setze Dateinamen, Pfade, Befehle, Property-Namen und Code-Bezeichner in Inline-Code.
+- Nutze Fettdruck sparsam, nur für Begriffe, die man beim Überfliegen finden soll.
+- Nutze deutsche Anführungszeichen („…“) im Fließtext.
+- Nutze Tabellen nur, um mehrere Dinge anhand derselben Merkmale zu vergleichen.
+- Nutze Mermaid für Diagramme.
+- Verlinke Notizen im Vault mit Wikilinks und externe Seiten mit `[Text](URL)`.
+- Nutze nur die Callouts `note` für Hinweise, `tip` für Empfehlungen, `warning` für Fallstricke und `question` für offene Fragen. Schreibe sie immer einklappbar, ausgeklappt und mit Titel: `> [!tip]+ Titel`.
 
-Regeln:
+### Properties und Tags
 
-- Trenner ist **`::`** am Ende der Fragezeile
-- Die **Antwort steht auf genau einer Zeile** — jeder echte Zeilenumbruch beendet den Block. Umbrüche, Listen und Tabellen mit `<br>` bauen
-- `deck`-Frontmatter setzen: `deck: "Traineeship::<Bereich>::<Unterkapitel>"`
-- Nur **Basic-Karten**, keine Cloze
+- Gib jeder neuen Notiz die Properties `tags` und `erstellt`. Ordne Properties so: `tags`, `erstellt`, dann alle weiteren.
+- Füge neue Properties nur hinzu, wenn keine passende existiert. Wähle Namen so spezifisch, dass sie nur in einem Kontext vorkommen, z. B. `lernphase` statt `status`.
+- Schreibe Namen von Properties und Tags klein und trenne Wörter mit Bindestrich, z. B. `basis-commit`.
+- Vergib Tags nur in den Properties und ohne Hierarchie.
 
-Nach dem Anlegen dem Nutzer sagen: Anki starten, Sync ausführen, und in der Abschlussmeldung auf **`Failed Created Blocks: 0`** achten. Prüfung im Vault:
+### Anhänge
 
-```bash
-grep -rc 'oid="undefined"' --include='Anki Karteikarten.md' Documentation/ | grep -v ':0'
-```
+- Lege Bilder in `Resources/Images/` ab und gib ihnen sprechende Dateinamen, z. B. `Architektur Motorsteuerung.png` statt `Pasted image 20261028.png`.
+- Lege Quelldokumente wie PDFs in `Resources/Startdokumente/` ab, dupliziere ihren Inhalt nicht und verlinke sie aus der passenden Notiz.
 
-Kein Treffer = alles übertragen. Treffer = diese Blöcke sind gescheitert; `oid="undefined"` wieder ersatzlos entfernen und erneut abgleichen.
+### Schreibweisen
 
-> [!warning] Das Plugin löscht ungefragt
-> Notizen, die es in Anki findet, aber nicht mehr im Vault, werden beim nächsten Abgleich **samt Lernfortschritt gelöscht**. Vor dem Verschieben, Umbenennen oder Archivieren von Karteikarten-Dateien den Nutzer auf einen Anki-Export mit Lernfortschritt hinweisen.
+- Schreibe Abkürzungen mit Leerzeichen: „z. B.“, „d. h.“, „u. a.“.
+- Schreibe Zahlen von null bis zwölf im Fließtext aus, ab 13 als Ziffern. Schreibe Zahlen mit Einheit immer als Ziffern.
+- Setze ein Leerzeichen zwischen Zahl und Einheit: „4 h“, „16 GB“, „50 %“.
+- Trenne Tausender mit Punkt: „1.500“.
+- Schreibe Daten als `JJJJ-MM-TT` und Uhrzeiten als `HH:MM`.
 
-Hintergrund, Plugin-Korrekturen und Fehlersuche: [[Documentation/Services/Obsidian Anki Sync.md|Obsidian Anki Sync]]. **Fünf Korrekturen an `main.js` sind angewendet** und gehen bei einem Plugin-Update verloren. Symptome danach: `TypeError … reading 'frontmatter'` in der Konsole und Karten, die nicht entstehen (Korrekturen 1–3), sowie ein einfrierendes Obsidian beim Klick auf das Anki-Symbol (Korrektur 4).
+## Regeln
 
-> [!danger] Ein `basicblock-start` ohne `basicblock-end` ließ Obsidian einfrieren
-> Das Plugin liest **jede** Markdown-Datei des Vaults und ignoriert dabei Code-Blöcke — ein unvollständiger Beispiel-Marker in einer Doku-Notiz genügte. Korrektur 4 macht die Regex linear; Marker in Notizen trotzdem immer als vollständiges Paar schreiben.
+- Frage nach, bevor du bestehende Notizen umbenennst oder verschiebst.
+- Lösche Notizen nie. Soll eine Notiz entfernt werden, frage nach und verschiebe sie danach nach `Zarchive`.
+- Verändere die Leitfäden im Traineeship (`X.Y <Thema> - Leitfaden.md`) inhaltlich nicht. Sie sind vom Unternehmen vorgegeben.
+- Fasse deine Änderungen kurz zusammen.
+- Rate nie. Recherchiere bei Unsicherheit aktiv oder frage nach.
+- Schreibe niemals erfundene Informationen in den Vault.
 
-Notizen, die das Kartenformat nur **beispielhaft zeigen** (wie diese Datei), brauchen `anki-sync: false` im Frontmatter — sonst legt das Plugin aus den Beispielen echte Karten an. Das Feld nur bei Dateien setzen, die noch **keine** synchronisierten Karten haben, sonst werden diese gelöscht.
+## Git
 
-### Workflow beim Durcharbeiten eines Unterkapitels
+- Committe regelmäßig in logischen Einheiten.
+- Halte die Commit-Historie sauber.
+- Pushe niemals.
+- Befolge für Commit-Nachrichten diese Regeln:
+	1. Trenne Subject und Body durch eine Leerzeile.
+	2. Begrenze die Subject-Zeile auf 50 Zeichen.
+	3. Beginne die Subject-Zeile mit einem Großbuchstaben.
+	4. Beende die Subject-Zeile nicht mit einem Punkt.
+	5. Formuliere die Subject-Zeile im Imperativ.
+	6. Brich den Body nach 72 Zeichen um.
+	7. Erkläre im Body, was und warum geändert wurde, nicht wie.
 
-Wenn Nick sagt „lass uns Kapitel X.Y durcharbeiten" (oder ähnlich, ohne dass er das jedes Mal neu spezifizieren muss):
+## Überprüfung
 
-1. **Leitfaden gründlich durcharbeiten.** Jedes Stichwort ausführlich erklären (nicht nur stichpunktartig) und in die `Vertiefung`-Notiz schreiben: Hintergrund/Warum, Konzept, konkrete Beispiele (Code, wo passend), Bezug zu vorherigen Kapiteln/bereits Gelerntem, die Kontrollfragen aus dem Leitfaden explizit beantworten, Self-Check-Fragen am Ende jedes Abschnitts. Ein Inhaltsverzeichnis oben verlinkt die Abschnitte.
-2. **Parallel dazu die Anki-Karteikarten pflegen** — pro behandeltem Stichwort passende Karten ergänzen (nicht erst am Kapitelende alles auf einmal).
-3. **Für die Übungsaufgabe (Implementierung):** eigener Projektordner außerhalb des Vaults (unter `~/HaegerConsulting/Projects/Traineeship/...`, auch wenn git es nicht bräuchte — Nicks bewusste Präferenz). Im Vault dazu `Übungsaufgabe/Umsetzungsstand (<Thema>).md` mit Arbeitsmodus, Zielen, Stand pro Datei/Bereich, offenen Punkten, gelernten Lektionen. **Arbeitsmodus: Nick schreibt den Code selbst, Claudian reviewt/korrigiert/erklärt und leitet an — nicht die Implementierung vorwegschreiben**, außer auf explizite Ansage (z. B. mechanische Wiederholung, oder wenn Nick explizit sagt „das schreib du").
-4. **Bei viel neuer Syntax/Technik auf einmal** (z. B. pytest-Fixtures, Parametrisierung, Mocking): zusätzlich einen abhakbaren **Tutorial-Style-Plan** (`Übungsaufgabe/<Thema> Plan & Syntax-Tutorial.md`) — eine Liste aller zu schreibenden Tests/Schritte von einfach nach komplex, jeder Block führt genau eine neue Technik ein (mit Kurz-Erklärung + Code-Muster), `- [ ]`-Kästchen zum Abhaken. Vorbild: `Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md`.
+Nutze die folgenden Checks, um deine Änderungen zu überprüfen. Wähle die Checks, die zur Aufgabe passen. Schlägt ein Check fehl, behebe das Problem oder weise in deiner Zusammenfassung darauf hin.
 
-## Projects (`Projects/`) — neu
+### Umfang der Änderungen
 
-Für jedes Arbeitsprojekt eine Hub-Notiz unter `Projects/<Projektname>.md`. Wächst ein Projekt (viele Meetings, Entscheidungen, Teilnotizen), daraus einen Unterordner `Projects/<Projektname>/` machen mit der Hub-Notiz `Projects/<Projektname>/<Projektname>.md` plus z. B. `Meetings/` und `Decisions/` als Unterordner — analog zum Muster in `Documentation/` (Services/People als Unterordner).
+- Prüfe mit `git status` und `git diff --stat`, welche Dateien du geändert hast. Es sollten nur Dateien betroffen sein, die zur Aufgabe gehören.
+- Prüfe mit `git diff`, ob du nur das geändert hast, was die Aufgabe verlangt.
+- Prüfe mit `git diff --name-status`, ob Dateien gelöscht (`D`) oder verschoben (`R`) wurden. `D` darf nie vorkommen, `R` nur nach Rückfrage.
 
-Frontmatter-Schema für Projekt-Hub-Notizen:
-```yaml
----
-tags:
-  - project
-status: active   # active | paused | done
-client:
-start:
-deadline:
-team: []
----
-```
-- `status` bildet den Zustand ab (kein Status-Tag, analog zum ToDo-System, das Zustand ebenfalls nicht über Tags löst).
-- `client` verlinkt auf eine Firmen-Notiz unter `Documentation/`, falls es sich um ein Kundenprojekt handelt (client-Notizen bekommen den Tag `client`, siehe Taxonomie unten).
-- `team` ist eine Liste von Wikilinks auf `Documentation/People/`-Notizen der Projektbeteiligten.
+### Links
 
-Eine Projekt-Notiz sollte immer verlinken auf: beteiligte Personen, genutzte Services (falls projektspezifische Tools zum Einsatz kommen), die Kunden-/Auftraggeber-Notiz (falls vorhanden) und relevante ToDo-Items.
+- Liste die Wikilinks einer geänderten Notiz mit `rg -o "\[\[[^\]|#]+" "<Datei>"` und prüfe, ob zu jedem Ziel eine Notiz existiert.
+- Suche nach dem Umbenennen oder Verschieben mit `rg "\[\[<Alter Name>"` nach Links auf den alten Namen. Es dürfen keine übrig bleiben.
 
-## Tag-Taxonomie (verbindlich)
+### Properties und Tags
 
-Nur diese Tags verwenden — keine Ad-hoc-Tags erfinden. Falls ein neuer Tag wirklich nötig erscheint: den Nutzer fragen und danach hier ergänzen.
+- Prüfe, ob jede neue Notiz die Properties `tags` und `erstellt` hat.
+- Prüfe vor dem Vergeben eines Tags, ob es schon in ähnlicher Form existiert: `rg -i "<tag>"`.
+- Prüfe vor dem Hinzufügen einer Property, ob es sie schon gibt und ob sie dort dieselbe Bedeutung hat: `rg "^<property>:"`.
 
-| Tag | Verwendung |
-|---|---|
-| `project` | Projekt-Hub-Notizen unter `Projects/` |
-| `documentation` | Referenz-/Wissensnotizen (Services, Firmenprofile, How-tos) |
-| `person` | Personen-Notizen unter `Documentation/People/` |
-| `client` | Kunden/externe Auftraggeber-Organisationen (Firmen-Notizen, die kein Arbeitgeber sind) |
-| `meeting` | Meeting-Notizen (i. d. R. innerhalb eines Projekts) |
-| `decision` | Entscheidungs-Dokumentation (i. d. R. innerhalb eines Projekts) |
-| `"#task"` | Einzelne ToDo-Items — Ausnahme, siehe Task-System oben |
+### Duplikate
 
-Tags gehören ins YAML-Frontmatter unter `tags:` als Liste, ohne führende Raute (Ausnahme: `"#task"` s. o.).
+- Suche vor dem Anlegen einer Notiz nach bestehenden Notizen zum Thema: `rg -il "<Begriff>"`.
+- Prüfe, ob Dateinamen eindeutig sind. Die Ausgabe muss leer sein: `find . -name "*.md" -not -path "./.*" | sed 's|.*/||' | sort | uniq -d`
 
-## Verlinkung (Backlinks) — zentrales Prinzip
+### Idempotenz
 
-- Immer Wikilinks `[[...]]` statt Klartext-Erwähnung verwenden, sobald eine Entität (Person, Service, Firma, Projekt) bereits eine Notiz hat oder eine verdient.
-- Proaktiv verlinken, nicht nur auf Nachfrage: Beim Anlegen/Bearbeiten einer Notiz aktiv nach passenden bestehenden Notizen suchen (z. B. per Grep über den Vault) und verknüpfen — auch wenn der Nutzer es nicht explizit erwähnt.
-- Referenz-Notizen (Person, Service, Client, Projekt) bekommen wo sinnvoll einen Rücklink-Abschnitt zur übergeordneten Übersicht, siehe Vorbild `Documentation/Websites und Services.md` ↔ `Documentation/Services/*.md`.
-- Vor dem Anlegen einer neuen Person-/Service-/Firmen-Notiz immer prüfen, ob sie nicht schon existiert (Dateiname-Suche), um Duplikate und getrennte Wissensinseln zu vermeiden.
+- Committe bei Aufräum- oder Normalisierungsaufgaben nach dem ersten Durchlauf und wende die Regel ein zweites Mal an. `git status` muss danach leer bleiben.
 
-## Namenskonventionen
+### Formatierung
 
-- Dateinamen in Title Case, Leerzeichen erlaubt, auf Deutsch (Vorbild: `Websites und Services.md`, `Martin Stoller.md`).
-- Ordnernamen ebenso in Title Case.
-- Bestehende Frontmatter-Felder nicht grundlos entfernen oder umbenennen.
+- Prüfe geänderte Notizen mit `npx markdownlint-cli2 "<Datei>"`. Viele Fehler behebt `--fix` automatisch.
+- Läufst du in der Flatpak-Sandbox von Obsidian, gibt es dort kein `npx`. Führe den Check dann über den Host aus: `flatpak-spawn --host bash -lic 'cd "<Vault-Pfad>" && npx markdownlint-cli2 "<Datei>"'`. Die Warnungen zu „job control“ kannst du ignorieren.
+- Prüfe die Regeln, die markdownlint nicht abdeckt, selbst: Groß- und Kleinschreibung in Listen, Punkt bei Sätzen, Callout-Format, Schreibweisen.
 
-## Verhalten
+## Workflows
 
-- Bei mehrdeutigen Strukturentscheidungen (neuer Tag, neue Top-Level-Struktur, Umbenennung bestehender Notizen) lieber nachfragen als eigenmächtig entscheiden — solche Änderungen sind später schwer rückgängig zu machen.
-- Innerhalb der hier definierten Konventionen (Tags aus der Taxonomie, Verlinkung, Frontmatter-Schemata) darf proaktiv und ohne Rückfrage gehandelt werden.
+Jeder Workflow liegt in einer eigenen Datei, ist in sich vollständig und verweist nicht auf Regeln anderer Workflows. Eine Ausnahme ist [[Code dokumentieren]]: Folge diesem Workflow immer, wenn du Code dokumentierst, auch innerhalb eines anderen Workflows.
+
+1. [[Thema lernen]]
+2. [[Codebase verstehen]]
+3. [[Code dokumentieren]]

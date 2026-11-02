@@ -16,7 +16,7 @@ Interview Vorbereitung/
 
 ## Arbeitsweise
 
-Bewusst nach dem Muster aus dem [[Documentation/Traineeship/Skalierbarkeit & ETL/CLAUDE.md|Traineeship-Arbeitsmodus]], nur zeitlich komprimiert:
+Bewusst nach dem Muster aus dem [[CLAUDE veraltet - Skalierbarkeit und ETL|Traineeship-Arbeitsmodus]], nur zeitlich komprimiert:
 
 1. Claudian kuratiert eine **Leseliste** mit Zeitbudget, Core-/Vertiefungsteil und Leseauftrag pro Quelle.
 2. Claudian legt in der **Vertiefungsnotiz** ein Fragegerüst an — *bevor* gelesen wird.

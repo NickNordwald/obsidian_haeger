@@ -1,0 +1,16 @@
+{
+  "config": {
+    "default": true,
+    "MD003": { "style": "atx" },             // Überschriften mit #
+    "MD004": { "style": "dash" },            // Aufzählungen mit -
+    "MD007": false,                          // Einrückung: wir nutzen Tabs
+    "MD010": false,                          // Tabs erlaubt
+    "MD013": false,                          // keine Zeilenlänge, ein Absatz pro Zeile
+    "MD024": { "siblings_only": true },      // gleiche Überschriften nur in verschiedenen Abschnitten
+    "MD029": { "style": "ordered" },         // nummerierte Listen 1. 2. 3.
+    "MD046": { "style": "fenced" },          // Codeblöcke mit ```
+    "MD049": { "style": "asterisk" },        // *kursiv*
+    "MD050": { "style": "asterisk" }         // **fett**
+  },
+  "ignores": [".obsidian/**", "Resources/**", "copilot/**"]
+}

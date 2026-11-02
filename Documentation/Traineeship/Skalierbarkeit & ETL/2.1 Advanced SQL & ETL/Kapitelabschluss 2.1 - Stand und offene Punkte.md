@@ -64,7 +64,7 @@ Vier Selbsttests, ein durchgehender Befund:
 
 ## Empfehlung fürs nächste Kapitel
 
-Der Arbeitsmodus aus [[Skalierbarkeit & ETL/CLAUDE.md|der Bereichs-CLAUDE.md]] hat funktioniert und bleibt. Zwei Kalibrierungen:
+Der Arbeitsmodus aus [[CLAUDE veraltet - Skalierbarkeit und ETL|der Bereichs-CLAUDE.md]] hat funktioniert und bleibt. Zwei Kalibrierungen:
 
 - **Zeitbudget ist Vorgabe, nicht Verhandlungsmasse.** Claudians Schätzungen lagen zweimal deutlich zu niedrig (Stichwort 2, Block D). Leselisten sind am Budget auszurichten, nicht umgekehrt — und wenn zwei Blöcke an einem Tag nötig sind, wird das Fragenset gekürzt statt der Antworten.
 - **Die Übungsaufgabe ist die Übung.** Zusätzliche Aufgabenlisten sind Auffrischung, kein Pflichtteil. Der Lerneffekt kam aus dem schrittweisen Bauen mit Review.

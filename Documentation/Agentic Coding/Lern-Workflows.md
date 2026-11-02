@@ -23,7 +23,7 @@ Kurzfassung aller Lern-Abläufe, die im Vault definiert sind. Die ausführlichen
 
 ## 1. Traineeship-Kapitel — klassisch (Kapitel 1)
 
-*Quelle: [[CLAUDE.md]] · Vorbild: [[1.3 Testing mit PyTest - Vertiefung]]*
+*Quelle: [[CLAUDE veraltet - Vault]] · Vorbild: [[1.3 Testing mit PyTest - Vertiefung]]*
 
 1. Nick sagt: „Lass uns Kapitel X.Y durcharbeiten."
 2. Claudian liest den Leitfaden (der bleibt unverändert).
@@ -34,7 +34,7 @@ Kurzfassung aller Lern-Abläufe, die im Vault definiert sind. Die ausführlichen
 
 ## 2. Traineeship-Kapitel — Nick produziert (ab Kapitel 2)
 
-*Quelle: [[Documentation/Traineeship/Skalierbarkeit & ETL/CLAUDE.md|Bereichs-CLAUDE.md]] · Vorbild Leseliste: [[Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/Leseliste|2.3 Leseliste]]*
+*Quelle: [[CLAUDE veraltet - Skalierbarkeit und ETL|Bereichs-CLAUDE.md]] · Vorbild Leseliste: [[Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/Leseliste|2.3 Leseliste]]*
 
 Pro Stichwort:
 
@@ -49,7 +49,7 @@ Pro Stichwort:
 
 ## 3. Übungsaufgabe — klassisch (Kapitel 1)
 
-*Quelle: [[CLAUDE.md]] · Vorbild: [[Test-Suite Plan & Syntax-Tutorial]]*
+*Quelle: [[CLAUDE veraltet - Vault]] · Vorbild: [[Test-Suite Plan & Syntax-Tutorial]]*
 
 1. Projektordner außerhalb des Vaults anlegen: `~/HaegerConsulting/Projects/Traineeship/...`
 2. Im Vault `Übungsaufgabe/Umsetzungsstand (<Thema>).md` anlegen: Ziele, Stand, offene Punkte, Lektionen.
@@ -59,7 +59,7 @@ Pro Stichwort:
 
 ## 4. Übungsaufgabe — Hilfe nur auf Nachfrage (ab Kapitel 2)
 
-*Quelle: [[Documentation/Traineeship/Skalierbarkeit & ETL/CLAUDE.md|Bereichs-CLAUDE.md]]*
+*Quelle: [[CLAUDE veraltet - Skalierbarkeit und ETL|Bereichs-CLAUDE.md]]*
 
 1. **Claudian** schreibt einmal einen groben Leitfaden: Zielbild, Reihenfolge der Schritte, woran man merkt, dass ein Schritt fertig ist. Kein Code.
 2. **Nick** baut selbst und führt den Umsetzungsstand.
@@ -75,7 +75,7 @@ Pro Stichwort:
 
 ## 5. Anki-Karteikarten anlegen
 
-*Quelle: [[CLAUDE.md]] · Details: [[Documentation/Services/Obsidian Anki Sync.md|Obsidian Anki Sync]]*
+*Quelle: [[CLAUDE veraltet - Vault]] · Details: [[Documentation/Services/Obsidian Anki Sync.md|Obsidian Anki Sync]]*
 
 1. In `Anki Karteikarten.md` das `deck` setzen: `Traineeship::<Bereich>::<Unterkapitel>`.
 2. Nur Basic-Karten: Frage endet mit `::`, Antwort auf **genau einer Zeile** (Umbrüche mit `<br>`).
@@ -143,7 +143,7 @@ Pro Stichwort:
 
 ## Verwandt
 
-- [[CLAUDE.md]] — Vault-Regeln
-- [[Documentation/Traineeship/Skalierbarkeit & ETL/CLAUDE.md|Bereichs-CLAUDE.md Skalierbarkeit & ETL]]
+- [[CLAUDE veraltet - Vault]] — Vault-Regeln
+- [[CLAUDE veraltet - Skalierbarkeit und ETL|Bereichs-CLAUDE.md Skalierbarkeit & ETL]]
 - [[Interview Vorbereitung]]
-- [[Documentation/Haeger Consulting.md|Haeger Consulting]]
+- [[Haeger Consulting|Haeger Consulting]]

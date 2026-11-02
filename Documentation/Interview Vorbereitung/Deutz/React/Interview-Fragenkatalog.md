@@ -73,7 +73,7 @@ Hier entscheidet sich mehr als beim Fachteil. Vorher formulieren, nicht improvis
 - [ ] **„Wie schätzen Sie Ihr React-Niveau ein?"** — Die ehrliche Antwort ist die starke: eine Woche gezielt gelernt, ein Projekt gebaut, Grundlagen verstanden, keine Produktionserfahrung. Genau so sagen. Jede Übertreibung fliegt bei der ersten Detailfrage auf.
 - [ ] **„Sie kommen aus dem Data Engineering — warum Frontend?"**
 - [ ] **„Was war schwierig beim Lernen?"** — Eine konkrete Sache aus deinem Projekt, nicht „die vielen Konzepte".
-- [ ] **„Wie lernen Sie Neues?"** — Hier kannst du auf deine Arbeitsweise im [[Documentation/Traineeship/Skalierbarkeit & ETL/CLAUDE.md|Traineeship]] verweisen: kuratierte Primärquellen, Abruftests statt Wiederlesen, dokumentierte Vertiefung, eigenes Projekt. Das ist ein echtes Unterscheidungsmerkmal — die wenigsten Kandidaten können ihren Lernprozess beschreiben.
+- [ ] **„Wie lernen Sie Neues?"** — Hier kannst du auf deine Arbeitsweise im [[CLAUDE veraltet - Skalierbarkeit und ETL|Traineeship]] verweisen: kuratierte Primärquellen, Abruftests statt Wiederlesen, dokumentierte Vertiefung, eigenes Projekt. Das ist ein echtes Unterscheidungsmerkmal — die wenigsten Kandidaten können ihren Lernprozess beschreiben.
 - [ ] **Eigene Fragen an das Gegenüber** — mindestens drei. Welcher Stack, wie alt die Codebasis, wie wird getestet, wie sieht Onboarding aus, wie ist das Verhältnis Frontend/Backend in der Rolle.
 
 > [!tip] Die zwei Sätze, die alles retten
