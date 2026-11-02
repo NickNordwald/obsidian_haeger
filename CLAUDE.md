@@ -149,3 +149,4 @@ Jeder Workflow liegt in einer eigenen Datei, ist in sich vollständig und verwei
 1. [[Thema lernen]]
 2. [[Codebase verstehen]]
 3. [[Code dokumentieren]]
+4. [[Anki-Karten erstellen]]
