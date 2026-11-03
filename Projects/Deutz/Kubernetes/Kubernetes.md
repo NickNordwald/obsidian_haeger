@@ -20,7 +20,7 @@ Lernpfad für das [[Projects/Deutz/Deutz|Deutz-Projekt]]. Er beginnt bewusst bei
 2. In der **Block-Notiz** stehen vorab Leitfragen. Du schreibst während oder direkt nach dem Üben **roh** mit: was du gemacht hast, woran du hängen geblieben bist, offene Fragen. Stichpunkte reichen.
 3. Du beantwortest die Leitfragen **aus dem Kopf**. Danach sagst du Claudian „Block X reviewen“. Claudian gibt dir ein Urteil pro Frage (✅/🟡/❌) und schreibt daraus den fertigen Abschnitt.
 4. Befehle, die du wirklich benutzt hast, landen in der [[Kubernetes Befehlsreferenz]].
-5. Pro Block entstehen **5–8 Anki-Karten** in [[Projects/Deutz/Kubernetes/Anki Karteikarten|Anki Karteikarten]], Deck `Deutz::Kubernetes`.
+5. Pro Block entstehen **5–8 Anki-Karten** in [[Kubernetes - Karteikarten|Anki Karteikarten]], Deck `Deutz::Kubernetes`.
 
 ## Fortschritt
 
@@ -40,7 +40,7 @@ Lernpfad für das [[Projects/Deutz/Deutz|Deutz-Projekt]]. Er beginnt bewusst bei
 |---|---|
 | [[1. Kubernetes-Grundlagen]] … [[4. Abschlussübung]] | Leitfragen, deine Mitschrift und der fertige Abschnitt pro Block |
 | [[Kubernetes Befehlsreferenz]] | `kubectl`, `helm` und `argocd` zum Nachschlagen |
-| [[Projects/Deutz/Kubernetes/Anki Karteikarten\|Anki Karteikarten]] | Deck `Deutz::Kubernetes` |
+| [[Kubernetes - Karteikarten\|Anki Karteikarten]] | Deck `Deutz::Kubernetes` |
 
 ## Verwandt
 

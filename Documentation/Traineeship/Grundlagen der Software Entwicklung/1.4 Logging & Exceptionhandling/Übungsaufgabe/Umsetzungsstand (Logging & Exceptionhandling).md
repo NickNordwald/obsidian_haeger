@@ -7,7 +7,7 @@ date: 2026-07-29
 
 Abgeschlossener Umsetzungsstand der **Logging- & Exceptionhandling-Iteration** der Pricing-Anwendung (Aufgabe: [[1.4 Logging & Exceptionhandling - Leitfaden#Aufgabe|1.4 Leitfaden – Aufgabe]]). Baut auf [[Umsetzungsstand (Testing mit PyTest)|Umsetzungsstand (Testing mit PyTest)]] auf.
 
-Theorie: [[1.4 Logging & Exceptionhandling - Vertiefung|Vertiefung]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/Anki Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Plan: [[Logging & Exceptions Plan & Syntax-Tutorial|Logging & Exceptions Plan & Syntax-Tutorial]] (enthält das Logging-Design mit Begründung)
+Theorie: [[1.4 Logging & Exceptionhandling - Vertiefung|Vertiefung]] · [[1.4 Logging & Exceptionhandling - Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Plan: [[Logging & Exceptions Plan & Syntax-Tutorial|Logging & Exceptions Plan & Syntax-Tutorial]] (enthält das Logging-Design mit Begründung)
 
 Projekt: `~/HaegerConsulting/Projects/Traineeship/GrundlagenSoftwareEntwicklung/Logging_Exceptions` (Kopie des PyTest-Standes) · Abschluss-Commit `logging erweiterung fertig`
 

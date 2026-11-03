@@ -75,7 +75,7 @@ Pro Stichwort:
 
 ## 5. Anki-Karteikarten anlegen
 
-*Quelle: [[CLAUDE veraltet - Vault]] · Details: [[Documentation/Services/Obsidian Anki Sync.md|Obsidian Anki Sync]]*
+*Quelle: [[CLAUDE veraltet - Vault]] · Details: [[Zarchive/Obsidian Anki Sync.md|Obsidian Anki Sync]]*
 
 1. In `Anki Karteikarten.md` das `deck` setzen: `Traineeship::<Bereich>::<Unterkapitel>`.
 2. Nur Basic-Karten: Frage endet mit `::`, Antwort auf **genau einer Zeile** (Umbrüche mit `<br>`).

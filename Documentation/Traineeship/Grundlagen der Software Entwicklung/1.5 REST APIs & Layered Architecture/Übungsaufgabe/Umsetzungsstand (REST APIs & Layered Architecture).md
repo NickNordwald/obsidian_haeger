@@ -7,7 +7,7 @@ date: 2026-08-13
 
 Abgeschlossener Umsetzungsstand der **REST-API-Iteration** der Pricing-Anwendung (Aufgabe: [[1.5 REST APIs & Layered Architecture - Leitfaden#Aufgabe|1.5 Leitfaden – Aufgabe]]). Baut auf [[Umsetzungsstand (Logging & Exceptionhandling)|Kapitel 1.4]] auf.
 
-Theorie: [[1.5 REST APIs & Layered Architecture - Vertiefung|Vertiefung]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Anki Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Syntax: [[FastAPI, Uvicorn & Pydantic - Syntax|FastAPI/Uvicorn/Pydantic]] · [[SQLAlchemy Schema & Beziehungen - Syntax|SQLAlchemy-Schema]] · Modelle: [[Datenmodelle und Schichtenübergänge|Datenmodelle und Schichtenübergänge]] · Review: [[Code Review (REST API)|Code Review (REST API)]]
+Theorie: [[1.5 REST APIs & Layered Architecture - Vertiefung|Vertiefung]] · [[1.5 REST APIs & Layered Architecture - Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Syntax: [[FastAPI, Uvicorn & Pydantic - Syntax|FastAPI/Uvicorn/Pydantic]] · [[SQLAlchemy Schema & Beziehungen - Syntax|SQLAlchemy-Schema]] · Modelle: [[Datenmodelle und Schichtenübergänge|Datenmodelle und Schichtenübergänge]] · Review: [[Code Review (REST API)|Code Review (REST API)]]
 
 Projekt: `~/HaegerConsulting/Projects/Traineeship/GrundlagenSoftwareEntwicklung/REST_API/` · Abschluss-Commit `7acbcf0`
 

@@ -16,4 +16,4 @@ Die folgenden Websites/Services werden bei [[Haeger Consulting]] genutzt:
 
 Nicht firmenseitig, aber im Vault dokumentiert, weil eine Notiz dazu existiert:
 
-- [[Documentation/Services/Obsidian Anki Sync|Obsidian Anki Sync]] (Obsidian-Plugin, überträgt die Traineeship-Karteikarten nach Anki) — ⚠️ enthält angepasste Plugin-Dateien, siehe Notiz
+- [Flashcards](https://github.com/reuseman/flashcards-obsidian) (Obsidian-Plugin, überträgt die Karteikarten über AnkiConnect nach Anki, Format siehe [[Anki-Karten erstellen]]). Löst das archivierte [[Zarchive/Obsidian Anki Sync|Obsidian Anki Sync]] ab.

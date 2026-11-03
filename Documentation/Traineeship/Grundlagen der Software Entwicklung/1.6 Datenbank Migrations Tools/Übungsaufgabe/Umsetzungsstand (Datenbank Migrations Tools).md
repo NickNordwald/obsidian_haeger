@@ -7,7 +7,7 @@ date: 2026-08-15
 
 Abgeschlossener Umsetzungsstand der **Migrations-Iteration** der Pricing-Anwendung (Aufgabe: [[1.6 Datenbank Migrations Tools - Leitfaden#Aufgabe|1.6 Leitfaden – Aufgabe]]). Baut auf [[Umsetzungsstand (REST APIs & Layered Architecture)|Kapitel 1.5]] auf.
 
-Theorie: [[1.6 Datenbank Migrations Tools - Vertiefung|Vertiefung]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/Anki Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Plan: [[Alembic Plan & Syntax-Tutorial|Alembic Plan & Syntax-Tutorial]] (13 Blöcke, alle abgearbeitet)
+Theorie: [[1.6 Datenbank Migrations Tools - Vertiefung|Vertiefung]] · [[1.6 Datenbank Migrations Tools - Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Plan: [[Alembic Plan & Syntax-Tutorial|Alembic Plan & Syntax-Tutorial]] (13 Blöcke, alle abgearbeitet)
 
 Projekt: `~/HaegerConsulting/Projects/Traineeship/GrundlagenSoftwareEntwicklung/DB_Migration_Tools/` (Kopie des REST-API-Standes) · Abschluss-Commit `8ded757`
 

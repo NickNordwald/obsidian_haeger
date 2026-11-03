@@ -12,7 +12,7 @@ Abschlussnotiz zu [[2.1 Advanced SQL & ETL - Leitfaden]], analog zu [[Kapitelabs
 | Artefakt | Stand |
 |---|---|
 | [[2.1 Advanced SQL & ETL - Vertiefung]] | ✅ Alle **9 Stichworte** ausgearbeitet, 9 Hauptabschnitte |
-| [[Anki Karteikarten]] | ✅ **112 Karten** über alle Stichworte |
+| [[2.1 Advanced SQL & ETL - Karteikarten|Karteikarten]] | ✅ **112 Karten** über alle Stichworte |
 | [[SQL-Werkzeugkasten]] | ✅ Nachschlagenotiz: `EXPLAIN` lesen · `ON CONFLICT`/`RETURNING` · `NOT IN`-NULL-Falle · Kleinzeug · `GROUPING SETS` |
 | [[Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Leseliste]] | ✅ Alle Core-Quellen gelesen |
 | [[Q&A/Fragen\|Q&A]] | ✅ Beantwortet |

@@ -7,7 +7,7 @@ date: 2026-08-18
 
 Abgeschlossener Umsetzungsstand der **Containerisierung** der Pricing-Anwendung (Aufgabe: [[1.7 Docker - Leitfaden#Aufgabe|1.7 Leitfaden – Aufgabe]]). Baut auf [[Umsetzungsstand (Datenbank Migrations Tools)|Kapitel 1.6]] auf.
 
-Theorie: [[1.7 Docker - Vertiefung|Vertiefung]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/Anki Karteikarten|Anki Karteikarten]] · Aufgekommene Fragen: [[Fragen aus der Umsetzung|Q&A – Fragen aus der Umsetzung]] · Netzwerk-Grundlagen: [[IP-Adressen, Ports und Sockets - Grundlagen|IP-Adressen, Ports und Sockets]] · Plan: [[Docker Plan & Syntax-Tutorial|Docker Plan & Syntax-Tutorial]] (15 Blöcke, alle abgearbeitet) · Referenz: [[Musterlösung (Docker)|Musterlösung]]
+Theorie: [[1.7 Docker - Vertiefung|Vertiefung]] · [[1.7 Docker - Karteikarten|Anki Karteikarten]] · Aufgekommene Fragen: [[Fragen aus der Umsetzung|Q&A – Fragen aus der Umsetzung]] · Netzwerk-Grundlagen: [[IP-Adressen, Ports und Sockets - Grundlagen|IP-Adressen, Ports und Sockets]] · Plan: [[Docker Plan & Syntax-Tutorial|Docker Plan & Syntax-Tutorial]] (15 Blöcke, alle abgearbeitet) · Referenz: [[Musterlösung (Docker)|Musterlösung]]
 
 Projekt: `~/HaegerConsulting/Projects/Traineeship/GrundlagenSoftwareEntwicklung/Docker/`
 

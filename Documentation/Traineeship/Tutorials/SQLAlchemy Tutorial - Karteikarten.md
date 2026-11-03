@@ -2,7 +2,7 @@
 deck: "Traineeship::Grundlagen der Software Entwicklung::SQLAlchemy Tutorial"
 ---
 
-Karteikarten zum [[SQLAlchemy Tutorial|SQLAlchemy Tutorial]]. Synchronisierung wie bei [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Anki Karteikarten|Anki Karteikarten]] über das Plugin **[Anki Sync](https://github.com/debanjandhar12/Obsidian-Anki-Sync)** (+ AnkiConnect): Anki im Hintergrund laufen lassen, dann in Obsidian **„Start Obsidian Anki Sync"** ausführen. Die `oid`-Attribute in den Block-Kommentaren werden beim ersten Sync automatisch ergänzt.
+Karteikarten zum [[SQLAlchemy Tutorial|SQLAlchemy Tutorial]]. Synchronisierung wie bei [[1.2 Relationale Datenbanken & ORM - Karteikarten|Anki Karteikarten]] über das Plugin **[Anki Sync](https://github.com/debanjandhar12/Obsidian-Anki-Sync)** (+ AnkiConnect): Anki im Hintergrund laufen lassen, dann in Obsidian **„Start Obsidian Anki Sync"** ausführen. Die `oid`-Attribute in den Block-Kommentaren werden beim ersten Sync automatisch ergänzt.
 
 ---
 

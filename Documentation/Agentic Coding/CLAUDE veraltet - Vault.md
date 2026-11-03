@@ -95,7 +95,7 @@ Kein Treffer = alles übertragen. Treffer = diese Blöcke sind gescheitert; `oid
 > [!warning] Das Plugin löscht ungefragt
 > Notizen, die es in Anki findet, aber nicht mehr im Vault, werden beim nächsten Abgleich **samt Lernfortschritt gelöscht**. Vor dem Verschieben, Umbenennen oder Archivieren von Karteikarten-Dateien den Nutzer auf einen Anki-Export mit Lernfortschritt hinweisen.
 
-Hintergrund, Plugin-Korrekturen und Fehlersuche: [[Documentation/Services/Obsidian Anki Sync.md|Obsidian Anki Sync]]. **Fünf Korrekturen an `main.js` sind angewendet** und gehen bei einem Plugin-Update verloren. Symptome danach: `TypeError … reading 'frontmatter'` in der Konsole und Karten, die nicht entstehen (Korrekturen 1–3), sowie ein einfrierendes Obsidian beim Klick auf das Anki-Symbol (Korrektur 4).
+Hintergrund, Plugin-Korrekturen und Fehlersuche: [[Zarchive/Obsidian Anki Sync.md|Obsidian Anki Sync]]. **Fünf Korrekturen an `main.js` sind angewendet** und gehen bei einem Plugin-Update verloren. Symptome danach: `TypeError … reading 'frontmatter'` in der Konsole und Karten, die nicht entstehen (Korrekturen 1–3), sowie ein einfrierendes Obsidian beim Klick auf das Anki-Symbol (Korrektur 4).
 
 > [!danger] Ein `basicblock-start` ohne `basicblock-end` ließ Obsidian einfrieren
 > Das Plugin liest **jede** Markdown-Datei des Vaults und ignoriert dabei Code-Blöcke — ein unvollständiger Beispiel-Marker in einer Doku-Notiz genügte. Korrektur 4 macht die Regex linear; Marker in Notizen trotzdem immer als vollständiges Paar schreiben.

@@ -7,7 +7,7 @@ date: 2026-07-26
 
 Abgeschlossener Umsetzungsstand der **Test-Erweiterung** der Pricing-Anwendung (Aufgabe: [[1.3 Testing mit PyTest - Leitfaden#Übungsaufgabe|1.3 Leitfaden – Übungsaufgabe]]). Baut auf [[Umsetzungsstand (DB-Erweiterung)|Umsetzungsstand (DB-Erweiterung)]] auf.
 
-Theorie: [[1.3 Testing mit PyTest - Vertiefung|Vertiefung]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Anki Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Plan: [[Test-Suite Plan & Syntax-Tutorial|Test-Suite Plan & Syntax-Tutorial]] (13 Blöcke, alle abgearbeitet)
+Theorie: [[1.3 Testing mit PyTest - Vertiefung|Vertiefung]] · [[1.3 Testing mit PyTest - Karteikarten|Anki Karteikarten]] · [[Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Q&A/Weiterführende Stichpunkte.md|Q&A-Register]] · Plan: [[Test-Suite Plan & Syntax-Tutorial|Test-Suite Plan & Syntax-Tutorial]] (13 Blöcke, alle abgearbeitet)
 
 Projekt: `~/HaegerConsulting/Projects/Traineeship/GrundlagenSoftwareEntwicklung/PyTest` (Kopie des DB/ORM-Standes)
 
