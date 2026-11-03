@@ -1,28 +1,23 @@
 ---
-deck: "Deutz::Kubernetes"
+tags:
+  - karteikarten
+erstellt: 2026-11-03
+cards-deck: "Deutz::Kubernetes"
 ---
 
-Karteikarten zum [[Projects/Deutz/Kubernetes/Kubernetes|Kubernetes-Lernpfad]]. Synchronisiert wird über [[Zarchive/Obsidian Anki Sync.md|Obsidian Anki Sync]]: Anki im Hintergrund laufen lassen, dann in Obsidian „Start Obsidian Anki Sync“ ausführen.
+# Kubernetes - Karteikarten
 
-**Konvention:** nur Basic-Karten, **5–8 Karten pro Block**, also bewusst schlanker als im Traineeship. Befehle, die man auswendig können muss, stehen wörtlich auf der Karte. Karten entstehen nach dem Review eines Blocks.
-
-# Fortschritt
+Karteikarten zum [[Projects/Deutz/Kubernetes/Kubernetes|Kubernetes-Lernpfad]], fünf bis acht pro Block. Befehle, die man auswendig können muss, stehen wörtlich auf der Karte. Karten entstehen nach dem Review eines Blocks. Format und Abgleich mit Anki beschreibt [[Anki-Karten erstellen]].
 
 - [ ] Block 1: Kubernetes-Grundlagen
 - [ ] Block 2: Helm
 - [ ] Block 3: Argo CD
-- [ ] Block 4: Abschlussübung (Lektionen)
+- [ ] Block 4: Abschlussübung
 
----
+## Block 1: Kubernetes-Grundlagen
 
-# Block 1: Kubernetes-Grundlagen
+## Block 2: Helm
 
+## Block 3: Argo CD
 
-# Block 2: Helm
-
-
-# Block 3: Argo CD
-
-
-# Block 4: Abschlussübung
-
+## Block 4: Abschlussübung
