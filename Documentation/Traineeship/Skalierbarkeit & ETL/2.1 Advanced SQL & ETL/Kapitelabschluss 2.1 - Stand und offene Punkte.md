@@ -12,7 +12,7 @@ Abschlussnotiz zu [[2.1 Advanced SQL & ETL - Leitfaden]], analog zu [[Kapitelabs
 | Artefakt | Stand |
 |---|---|
 | [[2.1 Advanced SQL & ETL - Vertiefung]] | ✅ Alle **9 Stichworte** ausgearbeitet, 9 Hauptabschnitte |
-| [[2.1 Advanced SQL & ETL - Karteikarten|Karteikarten]] | ✅ **112 Karten** über alle Stichworte |
+| [[2.1 Advanced SQL & ETL - Karteikarten|Karteikarten]] | ✅ **60 Karten** über alle Stichworte |
 | [[SQL-Werkzeugkasten]] | ✅ Nachschlagenotiz: `EXPLAIN` lesen · `ON CONFLICT`/`RETURNING` · `NOT IN`-NULL-Falle · Kleinzeug · `GROUPING SETS` |
 | [[Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Leseliste]] | ✅ Alle Core-Quellen gelesen |
 | [[Q&A/Fragen\|Q&A]] | ✅ Beantwortet |
@@ -41,7 +41,7 @@ Damit ist der Praxisteil des Kapitels abgedeckt.
 
 ### Bekannte Wissenslücken
 
-Aus dem Selbsttest zu Block D: Die **dimensionale Modellierung** (Fakten, Dimensionen, Grain, Star vs. Snowflake) blieb im Selbsttest weitgehend unbeantwortet. Der Stoff ist in [[2.1 Advanced SQL & ETL - Vertiefung#9.7 Dimensionale Modellierung: Fakten, Dimensionen, Grain|Abschnitt 9.7–9.10]] vollständig ausgearbeitet und in fünf Karten erfasst — **gelesen ist aber nicht gelernt.** Star/Snowflake stand schon in Kapitel 1 als blinder Fleck und ist jetzt zum zweiten Mal durchgerutscht. Für Data Engineering zentral.
+Aus dem Selbsttest zu Block D: Die **dimensionale Modellierung** (Fakten, Dimensionen, Grain, Star vs. Snowflake) blieb im Selbsttest weitgehend unbeantwortet. Der Stoff ist in [[2.1 Advanced SQL & ETL - Vertiefung#9.7 Dimensionale Modellierung: Fakten, Dimensionen, Grain|Abschnitt 9.7–9.10]] vollständig ausgearbeitet und in drei Karten erfasst — **gelesen ist aber nicht gelernt.** Star/Snowflake stand schon in Kapitel 1 als blinder Fleck und ist jetzt zum zweiten Mal durchgerutscht. Für Data Engineering zentral.
 
 ## Muster über das Kapitel
 
