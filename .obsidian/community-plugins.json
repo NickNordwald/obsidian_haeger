@@ -10,9 +10,10 @@
   "calendar",
   "obsidian-latex",
   "realclaudian",
-  "ObsidianAnkiSync",
   "obsidian-emoji-toolbar",
   "obsidian-day-planner",
   "copilot",
-  "obsidian-git"
+  "obsidian-git",
+  "custom-font-loader",
+  "flashcards-obsidian"
 ]

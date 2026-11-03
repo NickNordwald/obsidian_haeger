@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "1.2 Relationale Datenbanken & ORM - Karteikarten",
+      "path": "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md"
+    },
+    {
+      "basename": "Anki-Karten erstellen",
+      "path": "Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md"
     },
     {
       "basename": "AGENTS",
       "path": "Documentation/Agentic Coding/AGENTS.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
       "basename": "Lern-Workflows",
@@ -191,10 +199,6 @@
     {
       "basename": "Frontend Vorgaben",
       "path": "Projects/Deutz/Frontend Vorgaben.md"
-    },
-    {
-      "basename": "2026-10-07",
-      "path": "Calendar/Daily/2026-10-07.md"
     }
   ],
   "omittedPaths": [],

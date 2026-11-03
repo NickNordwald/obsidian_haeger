@@ -1,0 +1,204 @@
+2026-11-03T12:54:13.555Z [INFO] plugin loaded {"version":"2.2.0"}
+2026-11-03T14:17:16.505Z [INFO] syncVault start {"noteCount":169,"processedNoteCount":169,"skippedUnchangedNoteCount":0}
+2026-11-03T14:17:16.523Z [INFO] syncNote start {"notePath":"Documentation/git/Quiz 1 - Commits, Objekte & Rebase.md"}
+2026-11-03T14:17:16.558Z [INFO] syncNote start {"notePath":"Documentation/git/Noch anschauen.md"}
+2026-11-03T14:17:16.559Z [INFO] syncNote start {"notePath":"Documentation/git/Git von innen - ein Durchlauf.md"}
+2026-11-03T14:17:16.593Z [INFO] syncNote start {"notePath":"Documentation/git/Git Leseliste.md"}
+2026-11-03T14:17:16.621Z [INFO] syncNote start {"notePath":"Documentation/git/Git Befehlsreferenz.md"}
+2026-11-03T14:17:16.680Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Tutorials/SQLAlchemy Tutorial.md"}
+2026-11-03T14:17:16.690Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Tutorials/SQLAlchemy Tutorial - Karteikarten.md"}
+2026-11-03T14:17:16.828Z [INFO] bootstrap: creating missing model {"model":"Obsidian-basic"}
+2026-11-03T14:17:16.855Z [INFO] bootstrap: creating missing model {"model":"Obsidian-basic-reversed"}
+2026-11-03T14:17:16.897Z [INFO] bootstrap: creating missing model {"model":"Obsidian-cloze"}
+2026-11-03T14:17:16.947Z [INFO] bootstrap: creating missing model {"model":"Obsidian-reminder"}
+2026-11-03T14:17:17.938Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Tutorials/SQLAlchemy Tutorial - Karteikarten.md","okCreates":29,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:17.938Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Tutorials/FastAPI Tutorial/FastAPI Tutorial - Karteikarten.md"}
+2026-11-03T14:17:19.662Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Tutorials/FastAPI Tutorial/FastAPI Tutorial - Karteikarten.md","okCreates":54,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:19.662Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Tutorials/FastAPI Tutorial/FastAPI Tutorial - Zusammenfassung.md"}
+2026-11-03T14:17:19.718Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.4 Apache Spark/2.4 Apache Spark - Karteikarten.md"}
+2026-11-03T14:17:19.720Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.4 Apache Spark/Q&A/Fragen.md"}
+2026-11-03T14:17:19.721Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.4 Apache Spark/Leseliste.md"}
+2026-11-03T14:17:19.753Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.4 Apache Spark/2.4 Apache Spark - Vertiefung.md"}
+2026-11-03T14:17:19.776Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.4 Apache Spark/2.4 Apache Spark - Leitfaden.md"}
+2026-11-03T14:17:19.779Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/2.3 Advanced Python - Karteikarten.md"}
+2026-11-03T14:17:22.522Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/2.3 Advanced Python - Karteikarten.md","okCreates":83,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:22.522Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/Q&A/Fragen.md"}
+2026-11-03T14:17:22.535Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/Leseliste.md"}
+2026-11-03T14:17:22.562Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/2.3 Advanced Python - Vertiefung.md"}
+2026-11-03T14:17:22.754Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/2.3 Advanced Python - Leitfaden.md"}
+2026-11-03T14:17:22.756Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/2.2 OLAP Datenmodellierung & Datawarehousing - Karteikarten.md"}
+2026-11-03T14:17:26.128Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/2.2 OLAP Datenmodellierung & Datawarehousing - Karteikarten.md","okCreates":115,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:26.128Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/Übungsaufgabe/Musterlösung (Dimensionale Modellierung).md"}
+2026-11-03T14:17:26.185Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/Q&A/Fragen.md"}
+2026-11-03T14:17:26.208Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/Leseliste.md"}
+2026-11-03T14:17:26.280Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/2.2 OLAP Datenmodellierung & Datawarehousing - Vertiefung.md"}
+2026-11-03T14:17:26.564Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/2.2 OLAP Datenmodellierung & Datawarehousing - Leitfaden.md"}
+2026-11-03T14:17:26.571Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Karteikarten.md"}
+2026-11-03T14:17:28.166Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Karteikarten.md","okCreates":60,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:28.166Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Übungsaufgabe/Umsetzungsstand (SQL-Portierung).md"}
+2026-11-03T14:17:28.185Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Übungsaufgabe/SQL-Portierung - Leitfaden.md"}
+2026-11-03T14:17:28.209Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/psql und EXPLAIN - Werkzeugnotiz.md"}
+2026-11-03T14:17:28.231Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/SQL-Werkzeugkasten.md"}
+2026-11-03T14:17:28.244Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Q&A/Fragen.md"}
+2026-11-03T14:17:28.250Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Leseliste.md"}
+2026-11-03T14:17:28.304Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/Kapitelabschluss 2.1 - Stand und offene Punkte.md"}
+2026-11-03T14:17:28.308Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Vertiefung.md"}
+2026-11-03T14:17:28.455Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Leitfaden.md"}
+2026-11-03T14:17:28.459Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/uv - Paket- und Umgebungsverwaltung.md"}
+2026-11-03T14:17:28.469Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Vererbung und Polymorphie - Tiefenperspektive.md"}
+2026-11-03T14:17:28.473Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Scopes, Namespaces und Closures.md"}
+2026-11-03T14:17:28.482Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Python-Lernnotizen.md"}
+2026-11-03T14:17:28.487Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Konfiguration - Umgebungsvariablen, .env und CLI-Flags.md"}
+2026-11-03T14:17:28.502Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Klassen - Zusammenfassung Python-Tutorial Kap. 9.md"}
+2026-11-03T14:17:28.510Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Kapselung - Properties, Descriptors und Slots.md"}
+2026-11-03T14:17:28.514Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Das sys-Modul & Exit-Codes.md"}
+2026-11-03T14:17:28.521Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Das os-Modul.md"}
+2026-11-03T14:17:28.527Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Python Basics/Compile-, Typecheck- und Laufzeit in Python.md"}
+2026-11-03T14:17:28.531Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/Ressourcen und Quellen.md"}
+2026-11-03T14:17:28.551Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/Kapitelabschluss - Q&A-Ernte und blinde Flecken.md"}
+2026-11-03T14:17:28.587Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/Funny Screenshots.md"}
+2026-11-03T14:17:28.587Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/Challenge/Untitled.md"}
+2026-11-03T14:17:28.587Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/Challenge/Notizen.md"}
+2026-11-03T14:17:28.589Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/Aufgehobene offene Punkte (Kapitel 1).md"}
+2026-11-03T14:17:28.595Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/1.7 Docker - Karteikarten.md"}
+2026-11-03T14:17:30.448Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/1.7 Docker - Karteikarten.md","okCreates":60,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:30.448Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/Übungsaufgabe/Umsetzungsstand (Docker).md"}
+2026-11-03T14:17:30.457Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/Übungsaufgabe/Musterlösung (Docker).md"}
+2026-11-03T14:17:30.479Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/Übungsaufgabe/Docker Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:30.508Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/Q&A/Fragen aus der Umsetzung.md"}
+2026-11-03T14:17:30.536Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/IP-Adressen, Ports und Sockets - Grundlagen.md"}
+2026-11-03T14:17:30.555Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/1.7 Docker - Vertiefung.md"}
+2026-11-03T14:17:30.675Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/1.7 Docker - Leitfaden.md"}
+2026-11-03T14:17:30.679Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Karteikarten.md"}
+2026-11-03T14:17:32.833Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Karteikarten.md","okCreates":76,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:32.834Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Übungsaufgabe/Umsetzungsstand (REST APIs & Layered Architecture).md"}
+2026-11-03T14:17:32.841Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Übungsaufgabe/Schema-Umbau Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:32.863Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Übungsaufgabe/Refactorings vor der REST API - Arbeitsliste.md"}
+2026-11-03T14:17:32.877Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Übungsaufgabe/REST API Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:32.964Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Übungsaufgabe/Code Review (REST API).md"}
+2026-11-03T14:17:32.987Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/SQLAlchemy Schema & Beziehungen - Syntax.md"}
+2026-11-03T14:17:33.000Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Q&A/Weiterführende Stichpunkte.md"}
+2026-11-03T14:17:33.047Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/FastAPI, Uvicorn & Pydantic - Syntax.md"}
+2026-11-03T14:17:33.062Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/Datenmodelle und Schichtenübergänge.md"}
+2026-11-03T14:17:33.079Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Vertiefung.md"}
+2026-11-03T14:17:33.193Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Leitfaden.md"}
+2026-11-03T14:17:33.365Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Leitfaden.md","okCreates":5,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:33.365Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/1.6 Datenbank Migrations Tools - Karteikarten.md"}
+2026-11-03T14:17:34.441Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/1.6 Datenbank Migrations Tools - Karteikarten.md","okCreates":36,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:34.441Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/Übungsaufgabe/Umsetzungsstand (Datenbank Migrations Tools).md"}
+2026-11-03T14:17:34.454Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/Übungsaufgabe/Alembic Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:34.508Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/Q&A/Weiterführende Stichpunkte.md"}
+2026-11-03T14:17:34.528Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/1.6 Datenbank Migrations Tools - Vertiefung.md"}
+2026-11-03T14:17:34.592Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/1.6 Datenbank Migrations Tools - Leitfaden.md"}
+2026-11-03T14:17:34.593Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/1.4 Logging & Exceptionhandling - Karteikarten.md"}
+2026-11-03T14:17:36.219Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/1.4 Logging & Exceptionhandling - Karteikarten.md","okCreates":38,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:36.220Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/Übungsaufgabe/Umsetzungsstand (Logging & Exceptionhandling).md"}
+2026-11-03T14:17:36.235Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/Übungsaufgabe/Logging & Exceptions Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:36.268Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/Q&A/Weiterführende Stichpunkte.md"}
+2026-11-03T14:17:36.288Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/1.4 Logging & Exceptionhandling - Vertiefung.md"}
+2026-11-03T14:17:36.376Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/1.4 Logging & Exceptionhandling - Leitfaden.md"}
+2026-11-03T14:17:36.511Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/1.4 Logging & Exceptionhandling - Leitfaden.md","okCreates":3,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:36.511Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/1.3 Testing mit PyTest - Karteikarten.md"}
+2026-11-03T14:17:37.895Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/1.3 Testing mit PyTest - Karteikarten.md","okCreates":44,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:37.896Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Umsetzungsstand (Testing mit PyTest).md"}
+2026-11-03T14:17:37.915Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:37.957Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md:96: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:37.957Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md:97: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:37.958Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md:128: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:37.958Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md:129: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:37.958Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md:131: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md"}
+2026-11-03T14:17:38.007Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Übungsaufgabe/Test-Suite Plan & Syntax-Tutorial.md","okCreates":1,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:38.007Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Testtrends 2026.md"}
+2026-11-03T14:17:38.021Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/Q&A/Weiterführende Stichpunkte.md"}
+2026-11-03T14:17:38.046Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/1.3 Testing mit PyTest - Vertiefung.md"}
+2026-11-03T14:17:38.089Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/1.3 Testing mit PyTest - Leitfaden.md"}
+2026-11-03T14:17:38.090Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md"}
+2026-11-03T14:17:39.860Z [WARN] CREATE failed {"blockId":"q-cdh4","error":"cannot create note because it is a duplicate"}
+2026-11-03T14:17:39.961Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md","okCreates":68,"okUpdates":0,"okDeletes":0,"failedOps":1}
+2026-11-03T14:17:39.962Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Umsetzungsstand (DB-Erweiterung).md"}
+2026-11-03T14:17:39.971Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/SQLAlchemy (Teil 2) - Plan-Review & Tutorial.md"}
+2026-11-03T14:17:40.011Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/SQLAlchemy (Teil 2) - Plan-Review & Tutorial.md:489: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/SQLAlchemy (Teil 2) - Plan-Review & Tutorial.md"}
+2026-11-03T14:17:40.011Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Q&A (Kapitelabschluss).md"}
+2026-11-03T14:17:40.019Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/ORM-Anbindungsvarianten & direktes Domänen-Mapping.md"}
+2026-11-03T14:17:40.025Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/ORM besitzt das Schema (Spike) - Tutorial.md"}
+2026-11-03T14:17:40.039Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/ORM besitzt das Schema (Spike) - Tutorial.md:360: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/ORM besitzt das Schema (Spike) - Tutorial.md"}
+2026-11-03T14:17:40.039Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/FK-Auflösung - App-Speicher vs. Datenbank.md"}
+2026-11-03T14:17:40.045Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Datenmodell.md"}
+2026-11-03T14:17:40.068Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Code-Review (Stand Teil 1 - rohes SQL).md"}
+2026-11-03T14:17:40.084Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/psycopg 3 Grundlagen.md"}
+2026-11-03T14:17:40.092Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Q&A/Stichwörter und Fragen.md"}
+2026-11-03T14:17:40.093Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Q&A/Stichwörter Claudian.md"}
+2026-11-03T14:17:40.113Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Q&A/Antworten (Stichwörter & Fragen).md"}
+2026-11-03T14:17:40.134Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Vertiefung.md"}
+2026-11-03T14:17:40.239Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Leitfaden.md"}
+2026-11-03T14:17:40.243Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Karteikarten.md"}
+2026-11-03T14:17:42.111Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Karteikarten.md","okCreates":48,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-03T14:17:42.112Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Ursprüngliche Aufgabe.md"}
+2026-11-03T14:17:42.132Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Umsetzungsstand (OOP-Lösung).md"}
+2026-11-03T14:17:42.143Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Optimierungsansätze (OOP-Lösung).md"}
+2026-11-03T14:17:42.163Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Meine ursprüngliche Lösung.md"}
+2026-11-03T14:17:42.190Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/schemas.md"}
+2026-11-03T14:17:42.192Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/recommendations.md"}
+2026-11-03T14:17:42.199Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/main.md"}
+2026-11-03T14:17:42.200Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/main.md:14: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/main.md"}
+2026-11-03T14:17:42.200Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/ingestion.md"}
+2026-11-03T14:17:42.205Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/ingestion.md:285: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/ingestion.md"}
+2026-11-03T14:17:42.205Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/datamodels.md"}
+2026-11-03T14:17:42.206Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/database.md"}
+2026-11-03T14:17:42.207Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Code/api.md"}
+2026-11-03T14:17:42.209Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Vertiefung Plus/SOLID-Prinzipien.md"}
+2026-11-03T14:17:42.216Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Vertiefung Plus/Dependency Injection und Inversion of Control.md"}
+2026-11-03T14:17:42.221Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Q&A/Stichwörter und Fragen OOP.md"}
+2026-11-03T14:17:42.225Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Q&A/Q&A – Code-Verständnis (OOP-Lösung).md"}
+2026-11-03T14:17:42.239Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Q&A/Antworten.md"}
+2026-11-03T14:17:42.271Z [WARN] Malformed cloze in Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Q&A/Antworten.md:32: automatic cloze is missing `==`. {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Q&A/Antworten.md"}
+2026-11-03T14:17:42.272Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Zusammenfassung.md"}
+2026-11-03T14:17:42.281Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Vertiefung.md"}
+2026-11-03T14:17:42.345Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Leitfaden.md"}
+2026-11-03T14:17:42.357Z [INFO] syncNote start {"notePath":"Documentation/Services/Teams.md"}
+2026-11-03T14:17:42.364Z [INFO] syncNote start {"notePath":"Documentation/Services/Slack.md"}
+2026-11-03T14:17:42.365Z [INFO] syncNote start {"notePath":"Documentation/Services/Personio.md"}
+2026-11-03T14:17:42.366Z [INFO] syncNote start {"notePath":"Documentation/Services/PGP.md"}
+2026-11-03T14:17:42.372Z [INFO] syncNote start {"notePath":"Documentation/Services/Outlook.md"}
+2026-11-03T14:17:42.373Z [INFO] syncNote start {"notePath":"Documentation/Services/OneDrive.md"}
+2026-11-03T14:17:42.374Z [INFO] syncNote start {"notePath":"Documentation/Services/Jira.md"}
+2026-11-03T14:17:42.383Z [INFO] syncNote start {"notePath":"Documentation/Services/Confluence.md"}
+2026-11-03T14:17:42.392Z [INFO] syncNote start {"notePath":"Documentation/People/Sara.md"}
+2026-11-03T14:17:42.393Z [INFO] syncNote start {"notePath":"Documentation/People/Ralf Haeger.md"}
+2026-11-03T14:17:42.393Z [INFO] syncNote start {"notePath":"Documentation/People/Martin Stoller.md"}
+2026-11-03T14:17:42.394Z [INFO] syncNote start {"notePath":"Documentation/People/Marc Stöhr.md"}
+2026-11-03T14:17:42.394Z [INFO] syncNote start {"notePath":"Documentation/People/Lukas Beringer.md"}
+2026-11-03T14:17:42.395Z [INFO] syncNote start {"notePath":"Documentation/People/Elke Krahm.md"}
+2026-11-03T14:17:42.395Z [INFO] syncNote start {"notePath":"Documentation/People/David Haeger.md"}
+2026-11-03T14:17:42.396Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Interview Vorbereitung.md"}
+2026-11-03T14:17:42.399Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Übungsprojekt/Umsetzungsstand (Pricing-Dashboard).md"}
+2026-11-03T14:17:42.413Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Übungsprojekt/Lückenschluss (Pricing-Dashboard).md"}
+2026-11-03T14:17:42.470Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Übungsprojekt/Frontend-Projektaufbau erklärt.md"}
+2026-11-03T14:17:42.495Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Übungsprojekt/Code-Review-Aufgaben (Pricing-Dashboard).md"}
+2026-11-03T14:17:42.531Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Screenshot/Screenshot.md"}
+2026-11-03T14:17:42.532Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/React Crashkurs - Übersicht.md"}
+2026-11-03T14:17:42.536Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Interview-Fragenkatalog.md"}
+2026-11-03T14:17:42.544Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Grundlagen/Leseliste.md"}
+2026-11-03T14:17:42.563Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Grundlagen/3. Effects, Daten und Architektur - Vertiefung.md"}
+2026-11-03T14:17:42.575Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Grundlagen/2. State und Interaktivität - Vertiefung.md"}
+2026-11-03T14:17:42.615Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Grundlagen/1. React-Grundlagen - Vertiefung.md"}
+2026-11-03T14:17:42.660Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/React/Grundlagen/0. JavaScript für React - Vertiefung.md"}
+2026-11-03T14:17:42.696Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/Kubernetes/Übungsprojekt/Pricing-API auf Kubernetes - Übung.md"}
+2026-11-03T14:17:42.707Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/Kubernetes/Kubernetes Leseliste.md"}
+2026-11-03T14:17:42.714Z [INFO] syncNote start {"notePath":"Documentation/Interview Vorbereitung/Deutz/Kubernetes/Kubernetes Crashkurs - Überblick.md"}
+2026-11-03T14:17:42.737Z [INFO] syncNote start {"notePath":"Documentation/Haeger/Websites und Services.md"}
+2026-11-03T14:17:42.739Z [INFO] syncNote start {"notePath":"Documentation/Haeger/Onboarding.md"}
+2026-11-03T14:17:42.742Z [INFO] syncNote start {"notePath":"Documentation/Haeger/Haeger Consulting.md"}
+2026-11-03T14:17:42.748Z [INFO] syncNote start {"notePath":"Documentation/Haeger/Arbeitszeiten-Regelung.md"}
+2026-11-03T14:17:42.750Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/Workflows/Thema lernen.md"}
+2026-11-03T14:17:42.754Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/Workflows/Codebase verstehen.md"}
+2026-11-03T14:17:42.758Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/Workflows/Code dokumentieren.md"}
+2026-11-03T14:17:42.764Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md"}
+2026-11-03T14:17:42.771Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/Lern-Workflows.md"}
+2026-11-03T14:17:42.780Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/How to write AGENT files.md"}
+2026-11-03T14:17:42.790Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/CLAUDE veraltet - Vault.md"}
+2026-11-03T14:17:42.802Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/CLAUDE veraltet - Skalierbarkeit und ETL.md"}
+2026-11-03T14:17:42.813Z [INFO] syncNote start {"notePath":"Documentation/Agentic Coding/AGENTS.md"}
+2026-11-03T14:17:42.822Z [INFO] syncVault end {"noteCount":169,"processedNoteCount":169,"skippedUnchangedNoteCount":0,"totalCreates":720,"totalUpdates":0,"totalDeletes":0,"failedNotes":0}
+2026-11-03T14:24:31.191Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md"}
+2026-11-03T14:24:31.515Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md","okCreates":1,"okUpdates":0,"okDeletes":0,"failedOps":0}

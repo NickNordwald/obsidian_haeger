@@ -368,6 +368,10 @@
     "activeBackend": "claude",
     "backends": {
       "claude": {
+        "defaultModel": {
+          "baseModelId": "opus",
+          "effort": "medium"
+        },
         "defaultMode": "auto"
       }
     },

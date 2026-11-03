@@ -8,37 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b9e26443fabb418a",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {
-                "tabWorkspace": {
-                  "version": 1,
-                  "openTabs": [
-                    {
-                      "tabId": "tab-1792670796534-n4c7qcw",
-                      "conversationId": "conv-1792670923956-0off565kh"
-                    },
-                    {
-                      "tabId": "tab-1793110711378-a2dghb2",
-                      "conversationId": "conv-1793110829627-8iib5nxym"
-                    },
-                    {
-                      "tabId": "tab-1793175352148-78ob4jp",
-                      "conversationId": null,
-                      "draftModel": "opus",
-                      "providerId": "claude"
-                    }
-                  ],
-                  "activeTabId": "tab-1793175352148-78ob4jp"
-                }
-              },
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
-            }
-          },
-          {
             "id": "718998ac8d06a97d",
             "type": "leaf",
             "state": {
@@ -49,63 +18,34 @@
             }
           },
           {
-            "id": "ef2df7745290e0b1",
+            "id": "5c32bbeb647be70f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Agentic Coding/AGENTS.md",
+                "file": "Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "Anki-Karten erstellen"
             }
           },
           {
-            "id": "98ddd29632514429",
+            "id": "e30cb114bbf22e17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          },
-          {
-            "id": "d67cc6b069af2381",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          },
-          {
-            "id": "16383a88e71fdf25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "1.2 Relationale Datenbanken & ORM - Karteikarten"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -352,47 +292,48 @@
       "obsidian-day-planner:Open Multi-Day View": false,
       "copilot:Open Copilot Agent Chat": false,
       "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "flashcards-obsidian:Update Anki from current note": false
     }
   },
   "active": "718998ac8d06a97d",
   "lastOpenFiles": [
+    "Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md.tmp.907.f8755e30f58a",
     "Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md",
-    "Documentation/Agentic Coding/Workflows/Anki-Karten erstellen.md.tmp.406.f498b0d10d0f",
-    "CLAUDE.md.tmp.406.fbf90a85f80b",
-    "markdownlint-cli2.jsonc",
+    "Documentation/Traineeship/Tutorials/FastAPI Tutorial/FastAPI Tutorial - Karteikarten.md.tmp.907.f4dbd61996ee",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Karteikarten.md.tmp.907.0c990d02400d",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/1.6 Datenbank Migrations Tools - Karteikarten.md.tmp.907.545464fbcf9e",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Karteikarten.md.tmp.907.1ef218a02835",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/1.4 Logging & Exceptionhandling - Karteikarten.md.tmp.907.fffa2a8faeb0",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/1.3 Testing mit PyTest - Karteikarten.md.tmp.907.6d32be6d935a",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Karteikarten.md.tmp.907.d7e6728fc169",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Karteikarten.md.tmp.907.bbc48f44c5c4",
     "Documentation/Agentic Coding/AGENTS.md",
-    "CLAUDE.md.tmp.1720.535e98209ce5",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.4 Apache Spark/2.4 Apache Spark - Karteikarten.md.tmp.907.133906b16d8a",
+    "Projects/Deutz/Kubernetes/Kubernetes - Karteikarten.md.tmp.907.ce898c66d6bf",
+    "Zarchive/Obsidian Anki Sync.md",
+    "Projects/Deutz/Kubernetes/Kubernetes - Karteikarten.md",
+    "Documentation/Traineeship/Tutorials/FastAPI Tutorial/FastAPI Tutorial - Karteikarten.md",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.4 Apache Spark/2.4 Apache Spark - Karteikarten.md",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.3 Advanced Python/2.3 Advanced Python - Karteikarten.md",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.2 OLAP Datenmodellierung & Datawarehousing/2.2 OLAP Datenmodellierung & Datawarehousing - Karteikarten.md",
+    "Documentation/Traineeship/Skalierbarkeit & ETL/2.1 Advanced SQL & ETL/2.1 Advanced SQL & ETL - Karteikarten.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.7 Docker/1.7 Docker - Karteikarten.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.6 Datenbank Migrations Tools/1.6 Datenbank Migrations Tools - Karteikarten.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.5 REST APIs & Layered Architecture/1.5 REST APIs & Layered Architecture - Karteikarten.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.4 Logging & Exceptionhandling/1.4 Logging & Exceptionhandling - Karteikarten.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.3 Testing mit PyTest/1.3 Testing mit PyTest - Karteikarten.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md",
+    "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/1.1 OOP - Karteikarten.md",
+    "copilot/copilot-conversations/agent__Ich_habe_eine_große_Aufgabe_für_dich_Ich_habe_den@20261103_140234.md",
+    "copilot/copilot-conversations/agent__Ich_würde_gerne_in_diesem_Vault_die_folgenden_Schriften_nutzen@20261103_135759.md",
     "CLAUDE.md",
-    "Documentation/Agentic Coding/CLAUDE veraltet - Skalierbarkeit und ETL.md",
-    "Documentation/Agentic Coding/CLAUDE veraltet - Vault.md",
-    "Documentation/Agentic Coding/Workflows/Thema lernen.md",
-    "Documentation/Agentic Coding/Workflows/Codebase verstehen.md",
-    "Documentation/Agentic Coding/Workflows/Code dokumentieren.md",
-    "Documentation/Agentic Coding/Workflows",
-    "Documentation/Agentic Coding/Thema lernen.md",
-    "copilot/copilot-conversations/agent__Wo_in_diesem_Ordner_aus_in_DocumentationAgentic_Coding_gibt_es@20261029_194322.md",
-    "copilot/copilot-conversations",
-    "Documentation/Agentic Coding/Lern-Workflows.md",
-    "Documentation/Haeger/Arbeitszeiten-Regelung.md",
-    "Documentation/Agentic Coding",
-    "Documentation/Haeger/Haeger Consulting.md",
-    "Documentation/Haeger/Websites und Services.md",
-    "Documentation/Haeger/Onboarding.md",
-    "Documentation/Haeger",
-    "Documentation/Agentic Coding/How to write AGENT files.md",
-    "Documentation/Agentic Coding/Code dokumentieren.md",
-    "Documentation/Agentic Coding/Codebase verstehen.md",
-    "Documentation/Agentic Coding/CLAUDE.md",
-    "Projects/Deutz/Kubernetes/Notizen und Fragen.md",
     "copilot/skills/obsidian-cli/SKILL.md",
-    "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
-    "copilot/skills/json-canvas/SKILL.md",
-    "copilot/skills/json-canvas/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "Documentation/Agentic Coding/CLAUDE veraltet - Skalierbarkeit und ETL.md",
     "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.1 OOP/Übungsaufgabe/Klassendiagramm (OOP-Loesung).canvas",
     "Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/Übungsaufgabe/Datenmodell.canvas",
     "test.canvas",
