@@ -185,6 +185,18 @@
       "modelAliases": {},
       "preferredReasoningByModel": {},
       "selectedModels": []
+    },
+    "antigravity": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "sessionStoreHash": "",
+      "visibleModels": [],
+      "selectedModelsByHost": {}
     }
   },
   "settingsProvider": "claude",

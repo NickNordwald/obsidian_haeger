@@ -202,3 +202,5 @@
 2026-11-03T14:17:42.822Z [INFO] syncVault end {"noteCount":169,"processedNoteCount":169,"skippedUnchangedNoteCount":0,"totalCreates":720,"totalUpdates":0,"totalDeletes":0,"failedNotes":0}
 2026-11-03T14:24:31.191Z [INFO] syncNote start {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md"}
 2026-11-03T14:24:31.515Z [INFO] syncNote ok {"notePath":"Documentation/Traineeship/Grundlagen der Software Entwicklung/1.2 Relationale Datenbanken & ORM/1.2 Relationale Datenbanken & ORM - Karteikarten.md","okCreates":1,"okUpdates":0,"okDeletes":0,"failedOps":0}
+2026-11-05T21:54:40.996Z [INFO] plugin loaded {"version":"2.2.0"}
+2026-11-10T11:07:34.656Z [INFO] plugin loaded {"version":"2.2.0"}
